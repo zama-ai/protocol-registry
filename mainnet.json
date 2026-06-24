@@ -1,0 +1,544 @@
+{
+  "chains": {
+    "bsc": {
+      "address_type": "evm",
+      "block_explorer": "https://bscscan.com",
+      "chain_id": 56,
+      "display_name": "BSC",
+      "lz_endpoint_id": 30102
+    },
+    "ethereum": {
+      "address_type": "evm",
+      "block_explorer": "https://etherscan.io",
+      "chain_id": 1,
+      "display_name": "Ethereum",
+      "lz_endpoint_id": 30101
+    },
+    "gateway": {
+      "address_type": "evm",
+      "block_explorer": "https://explorer.mainnet.zama.org",
+      "chain_id": 261131,
+      "conduit_hub": "https://hub.conduit.xyz/share/IZ6SRVHPIY8BfKxabWQKP",
+      "display_name": "Gateway",
+      "lz_endpoint_id": 30397
+    },
+    "hyper_evm": {
+      "address_type": "evm",
+      "block_explorer": "https://hyperevmscan.io",
+      "chain_id": 999,
+      "display_name": "HyperEVM",
+      "lz_endpoint_id": 30367
+    },
+    "solana": {
+      "address_type": "solana_base58",
+      "block_explorer": "https://explorer.solana.com",
+      "display_name": "Solana",
+      "lz_display_name": "SOL",
+      "lz_endpoint_id": 30168
+    }
+  },
+  "contracts": {
+    "ACL_HOST": {
+      "address": "0xcA2E8f1F656CD25C01F05d0b243Ab1ecd4a8ffb6",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "fhevm_acl"
+    },
+    "ADMIN_MODULE": {
+      "address": "0x57f866b5E7Fb82Fb812Ed3D3C79cdB35E9e91518",
+      "chain": "gateway",
+      "note": "Trusted Safe module on Gateway; receives admin calls from GOVERNANCE_OAPP_RECEIVER",
+      "type": "admin_module"
+    },
+    "BNB_SAFE": {
+      "address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "chain": "bsc",
+      "custom_link": "https://app.safe.global/home?safe=bnb:0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "gnosis_safe"
+    },
+    "CIPHERTEXT_COMMITS": {
+      "address": "0xd82cF70FC102028cd01acB87D0E107780ae4F41F",
+      "chain": "gateway",
+      "type": "gateway_ciphertext_commits"
+    },
+    "CONFIDENTIAL_BBQTGBP": {
+      "address": "0xBA4cFF6ED6F7Cb2A58776dECa4E984b498446762",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cbbqTGBP",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xbeeffABcd0dB09589Dd21854aa760C52aB4bf04F"
+    },
+    "CONFIDENTIAL_BRON": {
+      "address": "0x85dE671c3bec1aDeD752c3Cea943521181C826bc",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cBRON",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xBA2C598E11eD093079cC324FCa5BbbA99F616E83"
+    },
+    "CONFIDENTIAL_STEAKCUSDC": {
+      "address": "0x66Bf74E96900D1a19c7070D939D124f2F565C458",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "csteakcUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xbEEF00A59B577423653A1526c7009bdE103F542B"
+    },
+    "CONFIDENTIAL_TGBP": {
+      "address": "0xa873750ccBafD5ec7Dd13bfD5237d7129832eDD9",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "ctGBP",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287"
+    },
+    "CONFIDENTIAL_USDC": {
+      "address": "0xe978F22157048E5DB8E5d07971376e86671672B2",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    },
+    "CONFIDENTIAL_USDT": {
+      "address": "0xAe0207C757Aa2B4019Ad96edD0092ddc63EF0c50",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    },
+    "CONFIDENTIAL_WETH": {
+      "address": "0xda9396b82634Ea99243cE51258B6A5Ae512D4893",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cWETH",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "CONFIDENTIAL_XAUT": {
+      "address": "0x73cc9aF9d6BEFdb3c3fAf8a5E8c05Cb95FdaEEf1",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cXAUt",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x68749665FF8D2d112Fa859AA293F07A622782F38"
+    },
+    "CONFIDENTIAL_ZAMA": {
+      "address": "0x80CB147Fd86dC6dEe3Eee7e4Cee33d1397d98071",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cZAMA",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3"
+    },
+    "DECRYPTION": {
+      "address": "0x0f6024a97684f7d90ddb0fAAD79cB15F2C888D24",
+      "chain": "gateway",
+      "type": "gateway_decryption"
+    },
+    "FHEVM_EXECUTOR": {
+      "address": "0xD82385dADa1ae3E969447f20A3164F6213100e75",
+      "chain": "ethereum",
+      "type": "fhevm_executor"
+    },
+    "GATEWAY_CONFIG": {
+      "address": "0xDE537Be194777A56f8B19d14079E6a78249390ab",
+      "chain": "gateway",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "type": "gateway_config"
+    },
+    "GATEWAY_SAFE": {
+      "address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "chain": "gateway",
+      "note": "Only partially verified on Blockscout because verification of transparent proxy is not supported.",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "gnosis_safe"
+    },
+    "GATEWAY_SAFE_L2_IMPLEM": {
+      "address": "0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2",
+      "chain": "gateway",
+      "note": "This is not the proxy. The implementation is unique and can be reused for deploying new safes.",
+      "type": "gateway_safe_l2_implementation"
+    },
+    "GATEWAY_SAFE_PROXY_FACTORY": {
+      "address": "0x3Ec655dD0F874a61B595D672757A08Ce7d97e047",
+      "chain": "gateway",
+      "note": "This is not the proxy. The proxy factory is unique and can be reused for deploying new safes.",
+      "type": "gateway_safe_proxy_factory"
+    },
+    "GOV_MULTISIG": {
+      "address": "0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f",
+      "chain": "ethereum",
+      "note": "Has execution permission on PROTOCOL_DAO.",
+      "threshold": 9,
+      "total_signers": 17,
+      "type": "aragon_multisig_plugin"
+    },
+    "GOVERNANCE_OAPP_RECEIVER": {
+      "address": "0x10795261A06285D3718674a9Cf98Ea66F7C6A0c6",
+      "chain": "gateway",
+      "delegate": "GATEWAY_SAFE",
+      "delegate_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "note": "Receives governance messages from Ethereum on Gateway",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "type": "layerzero_oapp_receiver"
+    },
+    "GOVERNANCE_OAPP_SENDER": {
+      "address": "0x1c5D750D18917064915901048cdFb2dB815e0910",
+      "chain": "ethereum",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "note": "Sends governance messages from Ethereum to other chains via LayerZero",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "layerzero_oapp_sender"
+    },
+    "HCU_LIMIT": {
+      "address": "0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2",
+      "chain": "ethereum",
+      "type": "fhevm_hcu_limit"
+    },
+    "HYPEREVM_SAFE": {
+      "address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "chain": "hyper_evm",
+      "custom_link": "https://app.safe.global/home?safe=hyper-evm:0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "gnosis_safe"
+    },
+    "HYPERLIQUID_COMPOSER": {
+      "address": "0x7B19Dc1d968756D895f7aA4273e174D45F8C87F0",
+      "chain": "hyper_evm",
+      "note": "lzCompose pattern — enables single-step bridging from Ethereum to HyperCore",
+      "type": "lz_composer"
+    },
+    "INPUT_VERIFICATION": {
+      "address": "0xcB1bB072f38bdAF0F328CdEf1Fc6eDa1DF029287",
+      "chain": "gateway",
+      "type": "gateway_input_verification"
+    },
+    "INPUT_VERIFIER": {
+      "address": "0xCe0FC2e05CFff1B719EFF7169f7D80Af770c8EA2",
+      "chain": "ethereum",
+      "type": "fhevm_verifier"
+    },
+    "KMS_GENERATION": {
+      "address": "0x290947F9fed2d91fdB22f35E162aDfA744b7aEe3",
+      "chain": "gateway",
+      "type": "gateway_kms_generation"
+    },
+    "KMS_VERIFIER": {
+      "address": "0x77627828a55156b04Ac0DC0eb30467f1a552BB03",
+      "chain": "ethereum",
+      "type": "fhevm_kms_verifier"
+    },
+    "MULTICHAIN_ACL": {
+      "address": "0x055d9FD50a612A9027716ec8db663E7D68562468",
+      "chain": "gateway",
+      "type": "gateway_multichain_acl"
+    },
+    "PAUSER_SET_GATEWAY": {
+      "address": "0x571ecb596fCc5c840DA35CbeCA175580db50ac1b",
+      "chain": "gateway",
+      "note": "Controls pausers for GATEWAY_CONFIG, DECRYPTION, INPUT_VERIFICATION",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "type": "pauser_set"
+    },
+    "PAUSER_SET_HOST": {
+      "address": "0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C",
+      "chain": "ethereum",
+      "note": "Controls pausers for ACL_HOST and PAUSER_SET_WRAPPER",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "pauser_set"
+    },
+    "PAUSER_SET_WRAPPER": {
+      "address": "0x08940bC8944A17E64AA9F5398046ABc75bB26699",
+      "chain": "ethereum",
+      "note": "Controls pauser role on ZAMA_TOKEN",
+      "type": "pauser_set"
+    },
+    "PROTOCOL_DAO": {
+      "address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "chain": "ethereum",
+      "note": "Primary Aragon governance DAO on Ethereum",
+      "type": "aragon_dao"
+    },
+    "PROTOCOL_PAYMENT": {
+      "address": "0x7E179E45E5fe0a21015Be25185363B4F2F2F7e89",
+      "chain": "gateway",
+      "type": "gateway_protocol_payment"
+    },
+    "PROTOCOL_STAKING_COPROCESSOR": {
+      "address": "0x7147485b892158f2B875f7aC5Ea48A9937C66AE8",
+      "chain": "ethereum",
+      "cooldown_period": "7 days",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "reward_rate": "6.97 tok/s",
+      "role": "coprocessor",
+      "type": "protocol_staking"
+    },
+    "PROTOCOL_STAKING_KMS": {
+      "address": "0xe9b176CCaA8840DC3b3567bb83e2cD2a6c36F4Ab",
+      "chain": "ethereum",
+      "cooldown_period": "7 days",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "reward_rate": "10.46 tok/s",
+      "role": "kms",
+      "type": "protocol_staking"
+    },
+    "SETUP_MULTISIG": {
+      "address": "0xBc860b6a4C860C5424B84A056E53ACFb2C99a38F",
+      "chain": "ethereum",
+      "note": "Has execution permission on PROTOCOL_DAO",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "aragon_multisig_plugin"
+    },
+    "SQUADS_VAULT_ID": {
+      "address": "G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5",
+      "chain": "solana",
+      "custom_link": "https://app.squads.so/squads/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5/home",
+      "threshold": 4,
+      "total_signers": 6,
+      "type": "squads_vault"
+    },
+    "TOKEN_WRAPPER_REGISTRY": {
+      "address": "0xeb5015fF021DB115aCe010f23F55C2591059bBA0",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "token_wrapper_registry"
+    },
+    "ZAMA_OFT_ADAPTER": {
+      "address": "0xa798B04149e7a61cc95B7D114AD420e8969eA268",
+      "chain": "ethereum",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "layerzero_oft_adapter"
+    },
+    "ZAMA_OFT_BNB": {
+      "address": "0x6907A5986C4950Bdaf2F81828Ec0737ce787519f",
+      "chain": "bsc",
+      "delegate": "BNB_SAFE",
+      "delegate_address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "owner": "BNB_SAFE",
+      "owner_address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "type": "layerzero_oft"
+    },
+    "ZAMA_OFT_ESCROW_SOL": {
+      "address": "22tZd8TXQGuTXEitCqxVKacdY2TAdjydsKJCFEC8jyuH",
+      "chain": "solana",
+      "type": "solana_account"
+    },
+    "ZAMA_OFT_GW": {
+      "address": "0xcE762c7FDaac795D31a266B9247F8958c159c6d4",
+      "chain": "gateway",
+      "delegate": "GATEWAY_SAFE",
+      "delegate_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
+      "type": "layerzero_oft"
+    },
+    "ZAMA_OFT_HYPEREVM": {
+      "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
+      "chain": "hyper_evm",
+      "delegate": "HYPEREVM_SAFE",
+      "delegate_address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "owner": "HYPEREVM_SAFE",
+      "owner_address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "type": "layerzero_oft"
+    },
+    "ZAMA_OFT_PROGRAM_SOL": {
+      "address": "A8W6AL4JhE4EDDcfXZ1Q8vQpwp83AnPj4UZ6y86gVFKN",
+      "chain": "solana",
+      "note": "LayerZero OFT program — contains the bridging and LZ configuration logic",
+      "type": "solana_program"
+    },
+    "ZAMA_OFT_SOL": {
+      "address": "4Zp52aF4hZi9fzH19xpbWKYKQvgLyCN67KFbrQDqeTKh",
+      "chain": "solana",
+      "note": "This is the SPL token logic used by exchanges and wallets",
+      "owner": "SQUADS_VAULT_ID",
+      "owner_address": "G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5",
+      "type": "layerzero_oft_solana"
+    },
+    "ZAMA_OFT_STORE_SOL": {
+      "address": "H9UdnuUqDJ5RV2GguybxsQb7CBQN7kQGBpKxk2dzQzx3",
+      "chain": "solana",
+      "note": "LayerZero-specific OFT store account",
+      "type": "solana_account"
+    },
+    "ZAMA_TOKEN": {
+      "address": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3",
+      "admin_role": "PROTOCOL_DAO",
+      "admin_role_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "chain": "ethereum",
+      "type": "erc20"
+    }
+  },
+  "lz_dvn_configs": [
+    {
+      "a_chain": "ethereum",
+      "a_to_b_confirmations": 15,
+      "b_chain": "gateway",
+      "b_to_a_confirmations": 20,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Ethereum -> Gateway",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "gateway",
+      "a_to_b_confirmations": 20,
+      "b_chain": "ethereum",
+      "b_to_a_confirmations": 15,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Gateway -> Ethereum",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "ethereum",
+      "a_to_b_confirmations": 15,
+      "b_chain": "bsc",
+      "b_to_a_confirmations": 20,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Ethereum -> BSC",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "bsc",
+      "a_to_b_confirmations": 20,
+      "b_chain": "ethereum",
+      "b_to_a_confirmations": 15,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "BSC -> Ethereum",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "solana",
+      "a_to_b_confirmations": 32,
+      "b_chain": "ethereum",
+      "b_to_a_confirmations": 15,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "SOL -> Ethereum",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "ethereum",
+      "a_to_b_confirmations": 15,
+      "b_chain": "solana",
+      "b_to_a_confirmations": 32,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Ethereum -> SOL",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "hyper_evm",
+      "a_to_b_confirmations": 1,
+      "b_chain": "ethereum",
+      "b_to_a_confirmations": 15,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "HyperEVM -> Ethereum",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "ethereum",
+      "a_to_b_confirmations": 15,
+      "b_chain": "hyper_evm",
+      "b_to_a_confirmations": 1,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Ethereum -> HyperEVM",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    }
+  ],
+  "parameters": {
+    "hyperliquid_hip1": {
+      "deployer_trading_fee_share": 1,
+      "full_name": "Zama",
+      "index": 433,
+      "name": "ZAMA",
+      "sz_decimals": 2,
+      "token_id": "0x93be47677e2dc084333dc6b59ac5672c",
+      "wei_decimals": 8
+    }
+  },
+  "schema_version": 1
+}

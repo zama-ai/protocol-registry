@@ -1,0 +1,446 @@
+{
+  "chains": {
+    "bsc_testnet": {
+      "address_type": "evm",
+      "block_explorer": "https://testnet.bscscan.com",
+      "chain_id": 97,
+      "display_name": "BSC Testnet",
+      "lz_endpoint_id": 40102
+    },
+    "ethereum_sepolia": {
+      "address_type": "evm",
+      "block_explorer": "https://sepolia.etherscan.io",
+      "chain_id": 11155111,
+      "display_name": "Ethereum Sepolia",
+      "lz_endpoint_id": 40161
+    },
+    "gateway_testnet": {
+      "address_type": "evm",
+      "block_explorer": "https://explorer.testnet.zama.org",
+      "chain_id": 10901,
+      "conduit_hub": "https://hub.conduit.xyz/share/H56c0FfZJVfaNQ8mW8aZO",
+      "display_name": "Gateway Testnet",
+      "lz_endpoint_id": 40424
+    },
+    "polygon_amoy": {
+      "address_type": "evm",
+      "block_explorer": "https://amoy.polygonscan.com/",
+      "chain_id": 80002,
+      "display_name": "Polygon Amoy",
+      "lz_endpoint_id": 40267
+    }
+  },
+  "contracts": {
+    "ACL_HOST": {
+      "address": "0xf0Ffdc93b7E186bC2f8CB3dAA75D86d1930A433D",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "fhevm_acl"
+    },
+    "ADMIN_MODULE": {
+      "address": "0x53dB449A96d0319DD1f90102dA116Bb9aB0483bB",
+      "chain": "gateway_testnet",
+      "type": "admin_module"
+    },
+    "AMOY_ADMIN_MODULE": {
+      "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
+      "chain": "polygon_amoy",
+      "type": "admin_module"
+    },
+    "AMOY_GOVERNANCE_OAPP_RECEIVER": {
+      "address": "0x696fCA81b616b4cd08Ea436492a443046fF3c6a6",
+      "chain": "polygon_amoy",
+      "delegate": "GATEWAY_SAFE",
+      "delegate_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "type": "layerzero_oapp_receiver"
+    },
+    "AMOY_SAFE": {
+      "address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "chain": "polygon_amoy",
+      "note": "3/5 Zama wallets",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "gnosis_safe"
+    },
+    "BRON_MOCK": {
+      "address": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E",
+      "chain": "ethereum_sepolia",
+      "note": "Mock BRON. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "BRONMock",
+      "type": "erc20"
+    },
+    "CIPHERTEXT_COMMITS": {
+      "address": "0xE327808C4aD514D6bd405e1f12cC86Fcd08e5228",
+      "chain": "gateway_testnet",
+      "type": "gateway_ciphertext_commits"
+    },
+    "CONFIDENTIAL_BRON_MOCK": {
+      "address": "0xaa5612FA27c927a0c7961f5AEFEE5ba3A0F9C891",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cBRONMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E"
+    },
+    "CONFIDENTIAL_TGBP": {
+      "address": "0x167DC962808B32CFFFc7e14B5018c0bE06A3A208",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "ctGBP",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xf6Ef9ADB61A48E29E36bc873070A46A3D2667ff3"
+    },
+    "CONFIDENTIAL_TGBP_MOCK": {
+      "address": "0xfCE5c7069c5525eF6c8C2b2E35A745bA20a2F7CC",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "ctGBPMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x93c931278A2aad1916783F952f94276eA5111442"
+    },
+    "CONFIDENTIAL_USDC_MOCK": {
+      "address": "0x7c5BF43B851c1dff1a4feE8dB225b87f2C223639",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cUSDCMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "CONFIDENTIAL_USDT_MOCK": {
+      "address": "0x4E7B06D78965594eB5EF5414c357ca21E1554491",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cUSDTMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
+    },
+    "CONFIDENTIAL_WETH_MOCK": {
+      "address": "0x46208622DA27d91db4f0393733C8BA082ed83158",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cWETHMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xff54739b16576FA5402F211D0b938469Ab9A5f3F"
+    },
+    "CONFIDENTIAL_XAUT_MOCK": {
+      "address": "0xe4FcF848739845BC81Dee1d5352cf3844F0a60C7",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cXAUtMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x24377AE4AA0C45ecEe71225007f17c5D423dd940"
+    },
+    "CONFIDENTIAL_ZAMA_MOCK": {
+      "address": "0xf2D628d2598aF4eAF94CB76a437Ff86CA78FfbFB",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cZAMAMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x75355a85c6FB9df5f0C80FF54e8747EEe9a0BF57"
+    },
+    "DECRYPTION": {
+      "address": "0x5D8BD78e2ea6bbE41f26dFe9fdaEAa349e077478",
+      "chain": "gateway_testnet",
+      "type": "gateway_decryption"
+    },
+    "FHEVM_EXECUTOR": {
+      "address": "0x92C920834Ec8941d2C77D188936E1f7A6f49c127",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_executor"
+    },
+    "GATEWAY_CONFIG": {
+      "address": "0x94153006067B89399e059284f5a7Fe016940E332",
+      "chain": "gateway_testnet",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "type": "gateway_config"
+    },
+    "GATEWAY_SAFE": {
+      "address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "chain": "gateway_testnet",
+      "note": "Only partially verified on Blockscout because verification of transparent proxy is not supported.",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "gnosis_safe"
+    },
+    "GATEWAY_SAFE_L2_IMPLEM": {
+      "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
+      "chain": "gateway_testnet",
+      "note": "This is not the proxy. The implementation is unique and can be reused for deploying new safes.",
+      "type": "gateway_safe_l2_implementation"
+    },
+    "GATEWAY_SAFE_PROXY_FACTORY": {
+      "address": "0xaa5f197a549685a2C4a088069aB5793d3887A090",
+      "chain": "gateway_testnet",
+      "note": "This is not the proxy. The proxy factory is unique and can be reused for deploying new safes.",
+      "type": "gateway_safe_proxy_factory"
+    },
+    "GOVERNANCE_OAPP_RECEIVER": {
+      "address": "0x998E9484Aa2a9Ae5B0C8a93B4bD2ea2a5C1B6fF0",
+      "chain": "gateway_testnet",
+      "delegate": "GATEWAY_SAFE",
+      "delegate_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "type": "layerzero_oapp_receiver"
+    },
+    "GOVERNANCE_OAPP_SENDER": {
+      "address": "0x909692c2f4979ca3fa11B5859d499308A1ec4932",
+      "chain": "ethereum_sepolia",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "layerzero_oapp_sender"
+    },
+    "GOVERNANCE_OAPP_SENDER_TO_AMOY": {
+      "address": "0xe57ea2f14f3051296d3965Bae8caAF86acdd6050",
+      "chain": "ethereum_sepolia",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "layerzero_oapp_sender"
+    },
+    "HCU_LIMIT": {
+      "address": "0xa10998783c8CF88D886Bc30307e631D6686F0A22",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_hcu_limit"
+    },
+    "INPUT_VERIFICATION": {
+      "address": "0x483b9dE06E4E4C7D35CCf5837A1668487406D955",
+      "chain": "gateway_testnet",
+      "type": "gateway_input_verification"
+    },
+    "INPUT_VERIFIER": {
+      "address": "0xBBC1fFCdc7C316aAAd72E807D9b0272BE8F84DA0",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_verifier"
+    },
+    "KMS_GENERATION": {
+      "address": "0x5779Ac320BbDB267Cc4d1b77195a203F926bBC60",
+      "chain": "gateway_testnet",
+      "type": "gateway_kms_generation"
+    },
+    "KMS_VERIFIER": {
+      "address": "0xbE0E383937d564D7FF0BC3b46c51f0bF8d5C311A",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_kms_verifier"
+    },
+    "MULTICHAIN_ACL": {
+      "address": "0xe877cA18d8Ea5490e9256e4B28414320726a8c3c",
+      "chain": "gateway_testnet",
+      "type": "gateway_multichain_acl"
+    },
+    "PAUSER_SET_GATEWAY": {
+      "address": "0x057dC9855536470A6D8C21d075bA17EA062A5dE7",
+      "chain": "gateway_testnet",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "type": "pauser_set"
+    },
+    "PAUSER_SET_HOST": {
+      "address": "0xc62392B4100a1bD45AbDBf91E70f1E4349402b46",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "pauser_set"
+    },
+    "PAUSER_SET_WRAPPER": {
+      "address": "0xEd03Be6711787f3068885137723504a075514040",
+      "chain": "ethereum_sepolia",
+      "type": "pauser_set"
+    },
+    "PROTOCOL_DAO": {
+      "address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "chain": "ethereum_sepolia",
+      "note": "Primary Aragon governance DAO on Sepolia",
+      "type": "aragon_dao"
+    },
+    "PROTOCOL_PAYMENT": {
+      "address": "0xAA1d9D4927A62f842F0DE5AD6b8dFDB074Fa62f2",
+      "chain": "gateway_testnet",
+      "type": "gateway_protocol_payment"
+    },
+    "PROTOCOL_STAKING_COPROCESSOR": {
+      "address": "0xc22E393D2A1C1BD65c88d34a3bE4DD77e8952E71",
+      "chain": "ethereum_sepolia",
+      "cooldown_period": "3 minutes",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "reward_rate": "6.97 tok/s",
+      "role": "coprocessor",
+      "type": "protocol_staking"
+    },
+    "PROTOCOL_STAKING_KMS": {
+      "address": "0x0309b4308A6AC121B9b3A960aC7Bc9bd8256cf38",
+      "chain": "ethereum_sepolia",
+      "cooldown_period": "3 minutes",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "reward_rate": "10.46 tok/s",
+      "role": "kms",
+      "type": "protocol_staking"
+    },
+    "SETUP_MULTISIG": {
+      "address": "0x6d5521B3B0b8E36F6942EAF3fc62bB9e096a6f9a",
+      "chain": "ethereum_sepolia",
+      "note": "Has execution permission on PROTOCOL_DAO.",
+      "threshold": 3,
+      "total_signers": 5,
+      "type": "aragon_multisig_plugin"
+    },
+    "TGBP": {
+      "address": "0xf6Ef9ADB61A48E29E36bc873070A46A3D2667ff3",
+      "chain": "ethereum_sepolia",
+      "note": "Official tGBP testnet erc20. Minting restricted to tGBP org.",
+      "symbol": "tGBP",
+      "type": "erc20"
+    },
+    "TGBP_MOCK": {
+      "address": "0x93c931278A2aad1916783F952f94276eA5111442",
+      "chain": "ethereum_sepolia",
+      "note": "Mock tGBP. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "tGBPMock",
+      "type": "erc20"
+    },
+    "TOKEN_WRAPPER_REGISTRY": {
+      "address": "0x2f0750Bbb0A246059d80e94c454586a7F27a128e",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "token_wrapper_registry"
+    },
+    "USDC_MOCK": {
+      "address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF",
+      "chain": "ethereum_sepolia",
+      "note": "Mock USDC. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "USDCMock",
+      "type": "erc20"
+    },
+    "USDT_MOCK": {
+      "address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0",
+      "chain": "ethereum_sepolia",
+      "note": "Mock USDT. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "USDTMock",
+      "type": "erc20"
+    },
+    "WETH_MOCK": {
+      "address": "0xff54739b16576FA5402F211D0b938469Ab9A5f3F",
+      "chain": "ethereum_sepolia",
+      "note": "Mock WETH. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "WETHMock",
+      "type": "erc20"
+    },
+    "XAUT_MOCK": {
+      "address": "0x24377AE4AA0C45ecEe71225007f17c5D423dd940",
+      "chain": "ethereum_sepolia",
+      "note": "Mock XAUt. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "XAUtMock",
+      "type": "erc20"
+    },
+    "ZAMA_MOCK": {
+      "address": "0x75355a85c6FB9df5f0C80FF54e8747EEe9a0BF57",
+      "chain": "ethereum_sepolia",
+      "note": "Mock ZAMA for confidential wrapper. Minting restricted to 1M tokens",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "ZAMAMock",
+      "type": "erc20"
+    },
+    "ZAMA_OFT_ADAPTER": {
+      "address": "0x55D5258841e9Fd304007683ff4637b0a80fb0e62",
+      "chain": "ethereum_sepolia",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "layerzero_oft_adapter"
+    },
+    "ZAMA_OFT_GW": {
+      "address": "0xcE762c7FDaac795D31a266B9247F8958c159c6d4",
+      "chain": "gateway_testnet",
+      "delegate": "GATEWAY_SAFE",
+      "delegate_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "owner": "GATEWAY_SAFE",
+      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "type": "layerzero_oft"
+    },
+    "ZAMA_STAKING_MOCK": {
+      "address": "0x9216F67a276B4bf1D883C4Ec24095C2bc53C2ef4",
+      "chain": "ethereum_sepolia",
+      "note": "Simple mintable mock ERC20 for staking contract testing. Symbol: ZAMAMock",
+      "type": "erc20"
+    },
+    "ZAMA_TOKEN": {
+      "address": "0xa798B04149e7a61cc95B7D114AD420e8969eA268",
+      "admin_role": "PROTOCOL_DAO",
+      "admin_role_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "chain": "ethereum_sepolia",
+      "type": "erc20"
+    }
+  },
+  "lz_dvn_configs": [
+    {
+      "a_chain": "ethereum_sepolia",
+      "a_to_b_confirmations": 15,
+      "b_chain": "gateway_testnet",
+      "b_to_a_confirmations": 20,
+      "optional_dvns": [],
+      "optional_threshold": 0,
+      "pathway": "ethereum_sepolia -> gateway_testnet",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "gateway_testnet",
+      "a_to_b_confirmations": 20,
+      "b_chain": "ethereum_sepolia",
+      "b_to_a_confirmations": 15,
+      "optional_dvns": [],
+      "optional_threshold": 0,
+      "pathway": "gateway_testnet -> ethereum_sepolia",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "ethereum_sepolia",
+      "a_to_b_confirmations": 15,
+      "b_chain": "polygon_amoy",
+      "b_to_a_confirmations": 120,
+      "optional_dvns": [],
+      "optional_threshold": 0,
+      "pathway": "ethereum_sepolia -> polygon_amoy",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    }
+  ],
+  "parameters": {},
+  "schema_version": 1
+}
