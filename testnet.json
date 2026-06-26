@@ -441,6 +441,114 @@
       ]
     }
   ],
+  "operator_staking": {
+    "artifact": {
+      "coprocessor": {
+        "operator_rewarder": "0x48D05E4edEC0496aF2DcA87cC478fD634358AaD9",
+        "operator_staking": "0x98B50c22245994360Ecf1F695a7383A3f983AeF4"
+      }
+    },
+    "blockscape": {
+      "coprocessor": {
+        "operator_rewarder": "0x39c5DE7A3eB8Ac69e0737F870a57c4aa509Abd88",
+        "operator_staking": "0xd32b8E13D9e9733f21068168637e68131122C212"
+      }
+    },
+    "conduit": {
+      "kms": {
+        "operator_rewarder": "0x59d75AC4Ace54a2c31ca5E1c830F174333E00daf",
+        "operator_staking": "0xd6C131CD3c1243934658781a9F7A2CBd1E40f6bF"
+      }
+    },
+    "dfns": {
+      "kms": {
+        "operator_rewarder": "0x9beA3550C355640ce9A6805eDE5Ef4B4242fe2f1",
+        "operator_staking": "0x8e0bFD7736E9628E2179fB98d44223eF9840fBC7"
+      }
+    },
+    "etherscan": {
+      "kms": {
+        "operator_rewarder": "0xa0F333e8478f092C83F512d8684697b8402A13AA",
+        "operator_staking": "0xDF3f304c291466F21BB711d00E48a0d9AD9D64aF"
+      }
+    },
+    "figment": {
+      "kms": {
+        "operator_rewarder": "0xBA07aC6121639C00307Fb7b869eB6C28C7dDc2A5",
+        "operator_staking": "0x1a5f6C8FFdd869b30FFC73cC9424025829aCad04"
+      }
+    },
+    "fireblocks": {
+      "kms": {
+        "operator_rewarder": "0xDDE05a52a91E060A2912f41A3020fB8a64fB6898",
+        "operator_staking": "0xe85765700Ef107E94fd57FbF1D1863ff87a2948D"
+      }
+    },
+    "infstones": {
+      "kms": {
+        "operator_rewarder": "0x84e4aEd40682854804980F0CeDE22021b2332DdD",
+        "operator_staking": "0x5F1310b6E8F7DcC24A9A6F74229cf66EE075d4D6"
+      }
+    },
+    "layerzero": {
+      "kms": {
+        "operator_rewarder": "0x8552cFd15Ac9BEB27B32265C842D0d7dE1Ea6907",
+        "operator_staking": "0x6c12eB5d89E6f89399610C7b3Efca40671E82F06"
+      }
+    },
+    "ledger": {
+      "kms": {
+        "operator_rewarder": "0x4e69A50244FD864DD92a4D4C0279Bd5A19BA3674",
+        "operator_staking": "0xe52419533D0322a57d6db28d32463aa6717FeA3c"
+      }
+    },
+    "luganodes": {
+      "coprocessor": {
+        "operator_rewarder": "0x54C96af59cE8dc776D10E906F6C6d65dBaA6b8a3",
+        "operator_staking": "0xe89d9ca0579F19B77af04b201E73A26CECA07600"
+      }
+    },
+    "omakase": {
+      "kms": {
+        "operator_rewarder": "0x0FA63Dd6a545fA3aAdb089232B8b498434393C7e",
+        "operator_staking": "0xb1A7026C28cB91604FB7B1669f060aB74A30c255"
+      }
+    },
+    "openzeppelin": {
+      "kms": {
+        "operator_rewarder": "0x515089940Cd2202D1eE49ee6F5f99DF598D21109",
+        "operator_staking": "0x76427A3830295406d4aBae5b4754749048f58098"
+      }
+    },
+    "p2p": {
+      "coprocessor": {
+        "operator_rewarder": "0xdDb13f5266474cCbeA7C5d45D140Ce9cc45F2527",
+        "operator_staking": "0x419Bcec8A8B60688AC7EfeFECC5f83E922191b2A"
+      }
+    },
+    "stake_capital": {
+      "kms": {
+        "operator_rewarder": "0xF10e5A61062f224837C199E98D362FA81F4211f6",
+        "operator_staking": "0xdd0a1B86C8bf653e5bA575bE81bBD733E59803Ae"
+      }
+    },
+    "unit410": {
+      "kms": {
+        "operator_rewarder": "0xE15e37219B8e468BF2174Da83925437f462c2506",
+        "operator_staking": "0xFcC6F9cA8CC4A491B05306D57374a3F6c1f52484"
+      }
+    },
+    "zama": {
+      "coprocessor": {
+        "operator_rewarder": "0xb58b77b140d6618f46B8115Cd3C10D856b3c7780",
+        "operator_staking": "0x1504646d2e4F924db4c6D6F8e42713e5492604ce"
+      },
+      "kms": {
+        "operator_rewarder": "0x458E9C3e87CF8fE7FCbD418e8C0AE9D09E581ad3",
+        "operator_staking": "0x454D1738C8eD25C744aF01730EE39a27B683A246"
+      }
+    }
+  },
   "parameters": {},
   "schema_version": 1
 }

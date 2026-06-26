@@ -21,7 +21,7 @@ Fetch the machine-readable JSON directly via raw URLs, e.g.:
 https://raw.githubusercontent.com/zama-ai/protocol-registry/main/mainnet.json
 ```
 
-Each file is a stable, sorted-key JSON object: `{ schema_version, chains, contracts, lz_dvn_configs, parameters }`. Contract entries carry `address`, `chain`, `type`, and (where applicable) `owner`/`owner_address`, `symbol`, `note`.
+Each file is a stable, sorted-key JSON object: `{ schema_version, chains, contracts, lz_dvn_configs, parameters, operator_staking }`. Contract entries carry `address`, `chain`, `type`, and (where applicable) `owner`/`owner_address`, `symbol`, `note`. `operator_staking` maps each operator → role (`kms`/`coprocessor`) → its `operator_staking` and `operator_rewarder` contract addresses.
 
 ## Integrity
 
