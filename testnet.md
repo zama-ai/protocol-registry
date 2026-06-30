@@ -21,9 +21,11 @@
 | `GOVERNANCE_OAPP_SENDER_TO_AMOY` | `layerzero_oapp_sender` | [`0xe57ea2f14f3051296d3965Bae8caAF86acdd6050`](https://sepolia.etherscan.io/address/0xe57ea2f14f3051296d3965Bae8caAF86acdd6050) | — |
 | `HCU_LIMIT` | `fhevm_hcu_limit` | [`0xa10998783c8CF88D886Bc30307e631D6686F0A22`](https://sepolia.etherscan.io/address/0xa10998783c8CF88D886Bc30307e631D6686F0A22) | — |
 | `INPUT_VERIFIER` | `fhevm_verifier` | [`0xBBC1fFCdc7C316aAAd72E807D9b0272BE8F84DA0`](https://sepolia.etherscan.io/address/0xBBC1fFCdc7C316aAAd72E807D9b0272BE8F84DA0) | — |
+| `KMS_GENERATION_HOST` | `fhevm_kms_generation` | [`0x77389113d7000EcBCfc2bDed57202f5f46109934`](https://sepolia.etherscan.io/address/0x77389113d7000EcBCfc2bDed57202f5f46109934) | — |
 | `KMS_VERIFIER` | `fhevm_kms_verifier` | [`0xbE0E383937d564D7FF0BC3b46c51f0bF8d5C311A`](https://sepolia.etherscan.io/address/0xbE0E383937d564D7FF0BC3b46c51f0bF8d5C311A) | — |
 | `PAUSER_SET_HOST` | `pauser_set` | [`0xc62392B4100a1bD45AbDBf91E70f1E4349402b46`](https://sepolia.etherscan.io/address/0xc62392B4100a1bD45AbDBf91E70f1E4349402b46) | — |
 | `PAUSER_SET_WRAPPER` | `pauser_set` | [`0xEd03Be6711787f3068885137723504a075514040`](https://sepolia.etherscan.io/address/0xEd03Be6711787f3068885137723504a075514040) | — |
+| `PROTOCOL_CONFIG` | `fhevm_protocol_config` | [`0x51f9AFBc89Ea792e1a21a12AB802ab58D4dbee83`](https://sepolia.etherscan.io/address/0x51f9AFBc89Ea792e1a21a12AB802ab58D4dbee83) | — |
 | `PROTOCOL_DAO` | `aragon_dao` | [`0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52`](https://sepolia.etherscan.io/address/0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52) | Primary Aragon governance DAO on Sepolia |
 | `PROTOCOL_STAKING_COPROCESSOR` | `protocol_staking` | [`0xc22E393D2A1C1BD65c88d34a3bE4DD77e8952E71`](https://sepolia.etherscan.io/address/0xc22E393D2A1C1BD65c88d34a3bE4DD77e8952E71) | — |
 | `PROTOCOL_STAKING_KMS` | `protocol_staking` | [`0x0309b4308A6AC121B9b3A960aC7Bc9bd8256cf38`](https://sepolia.etherscan.io/address/0x0309b4308A6AC121B9b3A960aC7Bc9bd8256cf38) | — |

@@ -235,6 +235,11 @@
       "chain": "gateway_testnet",
       "type": "gateway_kms_generation"
     },
+    "KMS_GENERATION_HOST": {
+      "address": "0x77389113d7000EcBCfc2bDed57202f5f46109934",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_kms_generation"
+    },
     "KMS_VERIFIER": {
       "address": "0xbE0E383937d564D7FF0BC3b46c51f0bF8d5C311A",
       "chain": "ethereum_sepolia",
@@ -263,6 +268,11 @@
       "address": "0xEd03Be6711787f3068885137723504a075514040",
       "chain": "ethereum_sepolia",
       "type": "pauser_set"
+    },
+    "PROTOCOL_CONFIG": {
+      "address": "0x51f9AFBc89Ea792e1a21a12AB802ab58D4dbee83",
+      "chain": "ethereum_sepolia",
+      "type": "fhevm_protocol_config"
     },
     "PROTOCOL_DAO": {
       "address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",

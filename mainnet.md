@@ -24,8 +24,8 @@
 | `CONFIDENTIAL_XAUT` | `confidential_wrapper` | [`0x73cc9aF9d6BEFdb3c3fAf8a5E8c05Cb95FdaEEf1`](https://etherscan.io/address/0x73cc9aF9d6BEFdb3c3fAf8a5E8c05Cb95FdaEEf1) | cXAUt. |
 | `CONFIDENTIAL_ZAMA` | `confidential_wrapper` | [`0x80CB147Fd86dC6dEe3Eee7e4Cee33d1397d98071`](https://etherscan.io/address/0x80CB147Fd86dC6dEe3Eee7e4Cee33d1397d98071) | cZAMA. |
 | `FHEVM_EXECUTOR` | `fhevm_executor` | [`0xD82385dADa1ae3E969447f20A3164F6213100e75`](https://etherscan.io/address/0xD82385dADa1ae3E969447f20A3164F6213100e75) | — |
-| `GOVERNANCE_OAPP_SENDER` | `layerzero_oapp_sender` | [`0x1c5D750D18917064915901048cdFb2dB815e0910`](https://etherscan.io/address/0x1c5D750D18917064915901048cdFb2dB815e0910) | Sends governance messages from Ethereum to other chains via LayerZero |
 | `GOV_MULTISIG` | `aragon_multisig_plugin` | [`0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f`](https://etherscan.io/address/0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f) | Has execution permission on PROTOCOL_DAO. |
+| `GOVERNANCE_OAPP_SENDER` | `layerzero_oapp_sender` | [`0x1c5D750D18917064915901048cdFb2dB815e0910`](https://etherscan.io/address/0x1c5D750D18917064915901048cdFb2dB815e0910) | Sends governance messages from Ethereum to other chains via LayerZero |
 | `HCU_LIMIT` | `fhevm_hcu_limit` | [`0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2`](https://etherscan.io/address/0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2) | — |
 | `INPUT_VERIFIER` | `fhevm_verifier` | [`0xCe0FC2e05CFff1B719EFF7169f7D80Af770c8EA2`](https://etherscan.io/address/0xCe0FC2e05CFff1B719EFF7169f7D80Af770c8EA2) | — |
 | `KMS_VERIFIER` | `fhevm_kms_verifier` | [`0x77627828a55156b04Ac0DC0eb30467f1a552BB03`](https://etherscan.io/address/0x77627828a55156b04Ac0DC0eb30467f1a552BB03) | — |
