@@ -43,19 +43,64 @@
       "chain": "gateway_testnet",
       "type": "admin_module"
     },
+    "AMOY_ACL_HOST": {
+      "address": "0xD99Cb9Fc3c42c87f2A4A12e8Fd60318d6bDdf985",
+      "chain": "polygon_amoy",
+      "owner": "AMOY_SAFE",
+      "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "source_verified": true,
+      "type": "fhevm_acl"
+    },
     "AMOY_ADMIN_MODULE": {
       "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
       "chain": "polygon_amoy",
       "type": "admin_module"
     },
+    "AMOY_FHEVM_EXECUTOR": {
+      "address": "0x89420269f61e4db00545cd99da0aEcA7fF0912f9",
+      "chain": "polygon_amoy",
+      "source_verified": true,
+      "type": "fhevm_executor"
+    },
     "AMOY_GOVERNANCE_OAPP_RECEIVER": {
       "address": "0x696fCA81b616b4cd08Ea436492a443046fF3c6a6",
       "chain": "polygon_amoy",
-      "delegate": "GATEWAY_SAFE",
-      "delegate_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
-      "owner": "GATEWAY_SAFE",
-      "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
+      "delegate": "AMOY_SAFE",
+      "delegate_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "owner": "AMOY_SAFE",
+      "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
       "type": "layerzero_oapp_receiver"
+    },
+    "AMOY_HCU_LIMIT": {
+      "address": "0x462f1920A9a7b5Aa74A36c3f49E38C34392B0546",
+      "chain": "polygon_amoy",
+      "source_verified": true,
+      "type": "fhevm_hcu_limit"
+    },
+    "AMOY_INPUT_VERIFIER": {
+      "address": "0x6e5A7D8b0c645467Cba7e62D6624917085118631",
+      "chain": "polygon_amoy",
+      "source_verified": true,
+      "type": "fhevm_verifier"
+    },
+    "AMOY_KMS_VERIFIER": {
+      "address": "0xCD1D89E311bce4C8DEa9a0857a0c9A4E153D4041",
+      "chain": "polygon_amoy",
+      "source_verified": true,
+      "type": "fhevm_kms_verifier"
+    },
+    "AMOY_PAUSER_SET_HOST": {
+      "address": "0xbD005B85E5de614661111930684d6F61D4a914a3",
+      "chain": "polygon_amoy",
+      "note": "Immutable PauserSet on Polygon Amoy. Registered pauser: 0xb7D919BDC506E23BE2f34E9dBa25B2Af4C5141f0",
+      "source_verified": true,
+      "type": "pauser_set"
+    },
+    "AMOY_PROTOCOL_CONFIG": {
+      "address": "0x4CcF009Aba90D04f52b31fc7aDdE240578aFe10F",
+      "chain": "polygon_amoy",
+      "source_verified": true,
+      "type": "fhevm_protocol_config"
     },
     "AMOY_SAFE": {
       "address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",

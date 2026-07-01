@@ -65,8 +65,15 @@
 
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
+| `AMOY_ACL_HOST` | `fhevm_acl` | [`0xD99Cb9Fc3c42c87f2A4A12e8Fd60318d6bDdf985`](https://amoy.polygonscan.com/address/0xD99Cb9Fc3c42c87f2A4A12e8Fd60318d6bDdf985) | — |
 | `AMOY_ADMIN_MODULE` | `admin_module` | [`0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01`](https://amoy.polygonscan.com/address/0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01) | — |
+| `AMOY_FHEVM_EXECUTOR` | `fhevm_executor` | [`0x89420269f61e4db00545cd99da0aEcA7fF0912f9`](https://amoy.polygonscan.com/address/0x89420269f61e4db00545cd99da0aEcA7fF0912f9) | — |
 | `AMOY_GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0x696fCA81b616b4cd08Ea436492a443046fF3c6a6`](https://amoy.polygonscan.com/address/0x696fCA81b616b4cd08Ea436492a443046fF3c6a6) | — |
+| `AMOY_HCU_LIMIT` | `fhevm_hcu_limit` | [`0x462f1920A9a7b5Aa74A36c3f49E38C34392B0546`](https://amoy.polygonscan.com/address/0x462f1920A9a7b5Aa74A36c3f49E38C34392B0546) | — |
+| `AMOY_INPUT_VERIFIER` | `fhevm_verifier` | [`0x6e5A7D8b0c645467Cba7e62D6624917085118631`](https://amoy.polygonscan.com/address/0x6e5A7D8b0c645467Cba7e62D6624917085118631) | — |
+| `AMOY_KMS_VERIFIER` | `fhevm_kms_verifier` | [`0xCD1D89E311bce4C8DEa9a0857a0c9A4E153D4041`](https://amoy.polygonscan.com/address/0xCD1D89E311bce4C8DEa9a0857a0c9A4E153D4041) | — |
+| `AMOY_PAUSER_SET_HOST` | `pauser_set` | [`0xbD005B85E5de614661111930684d6F61D4a914a3`](https://amoy.polygonscan.com/address/0xbD005B85E5de614661111930684d6F61D4a914a3) | Immutable PauserSet on Polygon Amoy. Registered pauser: 0xb7D919BDC506E23BE2f34E9dBa25B2Af4C5141f0 |
+| `AMOY_PROTOCOL_CONFIG` | `fhevm_protocol_config` | [`0x4CcF009Aba90D04f52b31fc7aDdE240578aFe10F`](https://amoy.polygonscan.com/address/0x4CcF009Aba90D04f52b31fc7aDdE240578aFe10F) | — |
 | `AMOY_SAFE` | `gnosis_safe` | [`0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb`](https://amoy.polygonscan.com/address/0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb) | 3/5 Zama wallets |
 
 ## Operator staking
