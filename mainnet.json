@@ -260,6 +260,258 @@
       "chain": "gateway",
       "type": "gateway_multichain_acl"
     },
+    "OPERATOR_REWARDER_ARTIFACT_COPROCESSOR": {
+      "address": "0x661305a9b15691d05B2238404949fE164eA4ca75",
+      "chain": "ethereum",
+      "operator": "artifact",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_BLOCKSCAPE_COPROCESSOR": {
+      "address": "0xAf948D2207BbaEC6737975A498F528Fc40E8EAAb",
+      "chain": "ethereum",
+      "operator": "blockscape",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_CONDUIT_KMS": {
+      "address": "0x13332Ceadc4c00e50955BD84F8aA9E9f6D007849",
+      "chain": "ethereum",
+      "operator": "conduit",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_DFNS_KMS": {
+      "address": "0x4033baE29f0328B3A0CB4Ba5ea8eBAa9d1EEBBF2",
+      "chain": "ethereum",
+      "operator": "dfns",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_ETHERSCAN_KMS": {
+      "address": "0x8AB0cBB793Eaa56f2395a2890370f4C75344fB93",
+      "chain": "ethereum",
+      "operator": "etherscan",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_FIGMENT_KMS": {
+      "address": "0x547d30673d77c941394762A248d1fE4457c414d1",
+      "chain": "ethereum",
+      "operator": "figment",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_FIREBLOCKS_KMS": {
+      "address": "0x18DD7055C2bdE33d759eC34166717f8183EEC5F8",
+      "chain": "ethereum",
+      "operator": "fireblocks",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_INFSTONES_KMS": {
+      "address": "0x578c104483E8d5890807c4681d780D87daA97fBA",
+      "chain": "ethereum",
+      "operator": "infstones",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_LAYERZERO_KMS": {
+      "address": "0xC0e0D29F8004624b6A6c204b2824e8Cb97cefb6b",
+      "chain": "ethereum",
+      "operator": "layerzero",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_LEDGER_KMS": {
+      "address": "0xdD7494fF830017d46Ab6341bC0A6883E6ebB50fa",
+      "chain": "ethereum",
+      "operator": "ledger",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_LUGANODES_COPROCESSOR": {
+      "address": "0x7A9683eD99a091eaEbcd30BBe3B112B3C888ed49",
+      "chain": "ethereum",
+      "operator": "luganodes",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_OMAKASE_KMS": {
+      "address": "0x3fB773DB5C038fE44517bE5594F31a4c08ea53d4",
+      "chain": "ethereum",
+      "operator": "omakase",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_OPENZEPPELIN_KMS": {
+      "address": "0x3b4bc79e4C9FA1c8392C07b5dc92Bba21bc8164d",
+      "chain": "ethereum",
+      "operator": "openzeppelin",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_P2P_COPROCESSOR": {
+      "address": "0x42D147a2C569dd574c9C9433DF19877Bf3d9D435",
+      "chain": "ethereum",
+      "operator": "p2p",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_STAKE_CAPITAL_KMS": {
+      "address": "0xAc3657a9C6C4782e65c99928eae983ACeD3f1479",
+      "chain": "ethereum",
+      "operator": "stake_capital",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_UNIT410_KMS": {
+      "address": "0x535eD1FB1E64c184D089a7952EE6C5D69f444061",
+      "chain": "ethereum",
+      "operator": "unit410",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_ZAMA_COPROCESSOR": {
+      "address": "0x7481d48C58D026D55398C01D293177ef5ff398e3",
+      "chain": "ethereum",
+      "operator": "zama",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_REWARDER_ZAMA_KMS": {
+      "address": "0xF69d04E529E3EC4d12Da9617110F48378B1d0CE1",
+      "chain": "ethereum",
+      "operator": "zama",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "OPERATOR_STAKING_ARTIFACT_COPROCESSOR": {
+      "address": "0xf5A0f502C98Df9dC22A4E4f251eC3c75f2aD8098",
+      "chain": "ethereum",
+      "operator": "artifact",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_BLOCKSCAPE_COPROCESSOR": {
+      "address": "0x126D6B697aD04228657Ba677c71CfE20A8745b03",
+      "chain": "ethereum",
+      "operator": "blockscape",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_CONDUIT_KMS": {
+      "address": "0x50C271E25Ee953DD21E916311db81E228c9Bdb59",
+      "chain": "ethereum",
+      "operator": "conduit",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_DFNS_KMS": {
+      "address": "0xB9689c08A634B076849E61Ea4E42AB44aE2e5e2d",
+      "chain": "ethereum",
+      "operator": "dfns",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_ETHERSCAN_KMS": {
+      "address": "0x93c931278A2aad1916783F952f94276eA5111442",
+      "chain": "ethereum",
+      "operator": "etherscan",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_FIGMENT_KMS": {
+      "address": "0x8a3Bb2a9B28dAD4230a6dfE17124C398eA6416BF",
+      "chain": "ethereum",
+      "operator": "figment",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_FIREBLOCKS_KMS": {
+      "address": "0xF1BA887932d7559B3b00a58fE92F36CA8D7751d3",
+      "chain": "ethereum",
+      "operator": "fireblocks",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_INFSTONES_KMS": {
+      "address": "0x80c03b5be1417D18bAe68d5a1F0f2A97457b0C3c",
+      "chain": "ethereum",
+      "operator": "infstones",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_LAYERZERO_KMS": {
+      "address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF",
+      "chain": "ethereum",
+      "operator": "layerzero",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_LEDGER_KMS": {
+      "address": "0x78F597F1Dcf5dA536745558368c825654A1A044B",
+      "chain": "ethereum",
+      "operator": "ledger",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_LUGANODES_COPROCESSOR": {
+      "address": "0xdD7fA0C796b3ca4fc1654F4eFFea5c4E9fF57a23",
+      "chain": "ethereum",
+      "operator": "luganodes",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_OMAKASE_KMS": {
+      "address": "0xff54739b16576FA5402F211D0b938469Ab9A5f3F",
+      "chain": "ethereum",
+      "operator": "omakase",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_OPENZEPPELIN_KMS": {
+      "address": "0x75355a85c6FB9df5f0C80FF54e8747EEe9a0BF57",
+      "chain": "ethereum",
+      "operator": "openzeppelin",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_P2P_COPROCESSOR": {
+      "address": "0xdB4FE5977d4f78f251C0F821C18C1F7A16Ad3A5e",
+      "chain": "ethereum",
+      "operator": "p2p",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_STAKE_CAPITAL_KMS": {
+      "address": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E",
+      "chain": "ethereum",
+      "operator": "stake_capital",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_UNIT410_KMS": {
+      "address": "0xFCAA267679B8364957560d7420E66Bb012013091",
+      "chain": "ethereum",
+      "operator": "unit410",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_ZAMA_COPROCESSOR": {
+      "address": "0x5c9401fdA261fDb97188126e130e001DB38F1310",
+      "chain": "ethereum",
+      "operator": "zama",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "OPERATOR_STAKING_ZAMA_KMS": {
+      "address": "0x8305d7c59886462B04C71Ecc5c5C331520C2a8E4",
+      "chain": "ethereum",
+      "operator": "zama",
+      "role": "kms",
+      "type": "operator_staking"
+    },
     "PAUSER_SET_GATEWAY": {
       "address": "0x571ecb596fCc5c840DA35CbeCA175580db50ac1b",
       "chain": "gateway",
