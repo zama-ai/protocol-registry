@@ -210,6 +210,12 @@
       "chain": "gateway_testnet",
       "type": "gateway_decryption"
     },
+    "FEES_SENDER_TO_BURNER": {
+      "address": "0x826106E9428460449d35F724F7098d0a67369AE2",
+      "chain": "gateway_testnet",
+      "note": "Sends fees from Gateway Testnet to the burner on Sepolia",
+      "type": "fees_sender_to_burner"
+    },
     "FHEVM_EXECUTOR": {
       "address": "0x92C920834Ec8941d2C77D188936E1f7A6f49c127",
       "chain": "ethereum_sepolia",
@@ -333,6 +339,12 @@
       "chain": "ethereum_sepolia",
       "note": "Primary Aragon governance DAO on Sepolia",
       "type": "aragon_dao"
+    },
+    "PROTOCOL_FEES_BURNER": {
+      "address": "0xFda98943FB461310A5d26769606D302Ea89890e3",
+      "chain": "ethereum_sepolia",
+      "note": "Burns protocol fees collected on Sepolia",
+      "type": "protocol_fees_burner"
     },
     "PROTOCOL_PAYMENT": {
       "address": "0xAA1d9D4927A62f842F0DE5AD6b8dFDB074Fa62f2",

@@ -150,6 +150,12 @@
       "chain": "gateway",
       "type": "gateway_decryption"
     },
+    "FEES_SENDER_TO_BURNER": {
+      "address": "0xd9c00DbE2d5e3f64950a1258DABBC3e75697022A",
+      "chain": "gateway",
+      "note": "Sends fees from Gateway Mainnet to the burner on Ethereum",
+      "type": "fees_sender_to_burner"
+    },
     "FHEVM_EXECUTOR": {
       "address": "0xD82385dADa1ae3E969447f20A3164F6213100e75",
       "chain": "ethereum",
@@ -281,6 +287,12 @@
       "chain": "ethereum",
       "note": "Primary Aragon governance DAO on Ethereum",
       "type": "aragon_dao"
+    },
+    "PROTOCOL_FEES_BURNER": {
+      "address": "0xd0D284f995a0f2c33648E87bCe79ba04Fdaf8b82",
+      "chain": "ethereum",
+      "note": "Burns protocol fees collected on Ethereum",
+      "type": "protocol_fees_burner"
     },
     "PROTOCOL_PAYMENT": {
       "address": "0x7E179E45E5fe0a21015Be25185363B4F2F2F7e89",

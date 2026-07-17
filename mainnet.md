@@ -93,6 +93,12 @@
 | `PAUSER_SET_HOST` | `pauser_set` | [`0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C`](https://etherscan.io/address/0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C) | Controls pausers for ACL_HOST and PAUSER_SET_WRAPPER |
 | `PAUSER_SET_WRAPPER` | `pauser_set` | [`0x08940bC8944A17E64AA9F5398046ABc75bB26699`](https://etherscan.io/address/0x08940bC8944A17E64AA9F5398046ABc75bB26699) | Controls pauser role on ZAMA_TOKEN |
 
+### Fees
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `PROTOCOL_FEES_BURNER` | `protocol_fees_burner` | [`0xd0D284f995a0f2c33648E87bCe79ba04Fdaf8b82`](https://etherscan.io/address/0xd0D284f995a0f2c33648E87bCe79ba04Fdaf8b82) | Burns protocol fees collected on Ethereum |
+
 ### FHEVM Protocol
 
 | Contract | Type | Address | Notes |
@@ -126,6 +132,12 @@
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
 | `PAUSER_SET_GATEWAY` | `pauser_set` | [`0x571ecb596fCc5c840DA35CbeCA175580db50ac1b`](https://explorer.mainnet.zama.org/address/0x571ecb596fCc5c840DA35CbeCA175580db50ac1b) | Controls pausers for GATEWAY_CONFIG, DECRYPTION, INPUT_VERIFICATION |
+
+### Fees
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `FEES_SENDER_TO_BURNER` | `fees_sender_to_burner` | [`0xd9c00DbE2d5e3f64950a1258DABBC3e75697022A`](https://explorer.mainnet.zama.org/address/0xd9c00DbE2d5e3f64950a1258DABBC3e75697022A) | Sends fees from Gateway Mainnet to the burner on Ethereum |
 
 ### FHEVM Protocol
 

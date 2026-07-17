@@ -88,6 +88,12 @@
 | `PAUSER_SET_HOST` | `pauser_set` | [`0xc62392B4100a1bD45AbDBf91E70f1E4349402b46`](https://sepolia.etherscan.io/address/0xc62392B4100a1bD45AbDBf91E70f1E4349402b46) | — |
 | `PAUSER_SET_WRAPPER` | `pauser_set` | [`0xEd03Be6711787f3068885137723504a075514040`](https://sepolia.etherscan.io/address/0xEd03Be6711787f3068885137723504a075514040) | — |
 
+### Fees
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `PROTOCOL_FEES_BURNER` | `protocol_fees_burner` | [`0xFda98943FB461310A5d26769606D302Ea89890e3`](https://sepolia.etherscan.io/address/0xFda98943FB461310A5d26769606D302Ea89890e3) | Burns protocol fees collected on Sepolia |
+
 ### FHEVM Protocol
 
 | Contract | Type | Address | Notes |
@@ -123,6 +129,12 @@
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
 | `PAUSER_SET_GATEWAY` | `pauser_set` | [`0x057dC9855536470A6D8C21d075bA17EA062A5dE7`](https://explorer.testnet.zama.org/address/0x057dC9855536470A6D8C21d075bA17EA062A5dE7) | — |
+
+### Fees
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `FEES_SENDER_TO_BURNER` | `fees_sender_to_burner` | [`0x826106E9428460449d35F724F7098d0a67369AE2`](https://explorer.testnet.zama.org/address/0x826106E9428460449d35F724F7098d0a67369AE2) | Sends fees from Gateway Testnet to the burner on Sepolia |
 
 ### FHEVM Protocol
 
