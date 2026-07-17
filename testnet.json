@@ -133,6 +133,15 @@
       "type": "confidential_wrapper",
       "underlying_token": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E"
     },
+    "CONFIDENTIAL_STEAKCUSDC": {
+      "address": "0x13F7d34A4f0102734F19E3Ff16e068Fe194B28c4",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "csteakcUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x6AB54988261AEC573a2CA13cF802d3B1114f864C"
+    },
     "CONFIDENTIAL_TGBP": {
       "address": "0x167DC962808B32CFFFc7e14B5018c0bE06A3A208",
       "chain": "ethereum_sepolia",
