@@ -7,6 +7,12 @@
       "display_name": "BSC Testnet",
       "lz_endpoint_id": 40102
     },
+    "ethereum_hoodi": {
+      "address_type": "evm",
+      "block_explorer": "https://eth-hoodi.blockscout.com",
+      "chain_id": 560048,
+      "display_name": "Ethereum Hoodi"
+    },
     "ethereum_sepolia": {
       "address_type": "evm",
       "block_explorer": "https://sepolia.etherscan.io",
@@ -279,6 +285,100 @@
       "address": "0xa10998783c8CF88D886Bc30307e631D6686F0A22",
       "chain": "ethereum_sepolia",
       "type": "fhevm_hcu_limit"
+    },
+    "HOODI_OPERATOR_REWARDER_BLOCKSCAPE_COPROCESSOR": {
+      "address": "0x35a4A730911a9504b2E47DB130B211cA8452e2fb",
+      "chain": "ethereum_hoodi",
+      "operator": "blockscape",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "HOODI_OPERATOR_REWARDER_DFNS_KMS": {
+      "address": "0xA70BBDF02803e22f35Abc4EEd40752653B0236F0",
+      "chain": "ethereum_hoodi",
+      "operator": "dfns",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "HOODI_OPERATOR_REWARDER_FIGMENT_KMS": {
+      "address": "0xB8feeB695247810A81BB0e2a32D3b1c01D8fE01A",
+      "chain": "ethereum_hoodi",
+      "operator": "figment",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "HOODI_OPERATOR_REWARDER_ZAMA_COPROCESSOR": {
+      "address": "0xdBE943948D4970ed6f0527fDCdC2a01A58A530c9",
+      "chain": "ethereum_hoodi",
+      "operator": "zama",
+      "role": "coprocessor",
+      "type": "operator_rewarder"
+    },
+    "HOODI_OPERATOR_REWARDER_ZAMA_KMS": {
+      "address": "0x1F00Fdd750Aa2d627a370a66D71BfDb396540434",
+      "chain": "ethereum_hoodi",
+      "operator": "zama",
+      "role": "kms",
+      "type": "operator_rewarder"
+    },
+    "HOODI_OPERATOR_STAKING_BLOCKSCAPE_COPROCESSOR": {
+      "address": "0xD86AE01b0c578D93fB89F0d181E8189B5c463cFE",
+      "chain": "ethereum_hoodi",
+      "operator": "blockscape",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "HOODI_OPERATOR_STAKING_DFNS_KMS": {
+      "address": "0x5278AB58212949C60A8EEEf1E3cBb7bc6588d7b9",
+      "chain": "ethereum_hoodi",
+      "operator": "dfns",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "HOODI_OPERATOR_STAKING_FIGMENT_KMS": {
+      "address": "0x6570756591Ed9351D0D53D840D3e8F321887F4Fa",
+      "chain": "ethereum_hoodi",
+      "operator": "figment",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "HOODI_OPERATOR_STAKING_ZAMA_COPROCESSOR": {
+      "address": "0xC1Ba8ed5c9bFE4E1d185D81ddCa1EDF999E45107",
+      "chain": "ethereum_hoodi",
+      "operator": "zama",
+      "role": "coprocessor",
+      "type": "operator_staking"
+    },
+    "HOODI_OPERATOR_STAKING_ZAMA_KMS": {
+      "address": "0xbFb717A712aC94204aE9E7049332641f3332C82f",
+      "chain": "ethereum_hoodi",
+      "operator": "zama",
+      "role": "kms",
+      "type": "operator_staking"
+    },
+    "HOODI_PROTOCOL_STAKING_COPROCESSOR": {
+      "address": "0xe41B550CA6F01b756926Be7D593c9F266Cae6221",
+      "chain": "ethereum_hoodi",
+      "cooldown_period": "3 minutes",
+      "owner": "0x998301B557b9f2B27cb4f2CB16035e6f4b09EACf",
+      "reward_rate": "10.46 tok/s",
+      "role": "coprocessor",
+      "type": "protocol_staking"
+    },
+    "HOODI_PROTOCOL_STAKING_KMS": {
+      "address": "0xB6CE80007422D411825a712e522AE1dcA2746033",
+      "chain": "ethereum_hoodi",
+      "cooldown_period": "3 minutes",
+      "owner": "0x998301B557b9f2B27cb4f2CB16035e6f4b09EACf",
+      "reward_rate": "10.46 tok/s",
+      "role": "kms",
+      "type": "protocol_staking"
+    },
+    "HOODI_ZAMA_STAKING_MOCK": {
+      "address": "0x58713Eca04e01114480b30bE8Ca0d8838F342a55",
+      "chain": "ethereum_hoodi",
+      "note": "Mintable mock ERC20 for staking contract testing. Symbol: ZAMAMock. Public mint capped at 1M/call; ProtocolStaking contracts hold MINTER_ROLE for reward payouts.",
+      "type": "erc20"
     },
     "INPUT_VERIFICATION": {
       "address": "0x483b9dE06E4E4C7D35CCf5837A1668487406D955",
@@ -769,114 +869,6 @@
       ]
     }
   ],
-  "operator_staking": {
-    "artifact": {
-      "coprocessor": {
-        "operator_rewarder": "0x48D05E4edEC0496aF2DcA87cC478fD634358AaD9",
-        "operator_staking": "0x98B50c22245994360Ecf1F695a7383A3f983AeF4"
-      }
-    },
-    "blockscape": {
-      "coprocessor": {
-        "operator_rewarder": "0x39c5DE7A3eB8Ac69e0737F870a57c4aa509Abd88",
-        "operator_staking": "0xd32b8E13D9e9733f21068168637e68131122C212"
-      }
-    },
-    "conduit": {
-      "kms": {
-        "operator_rewarder": "0x59d75AC4Ace54a2c31ca5E1c830F174333E00daf",
-        "operator_staking": "0xd6C131CD3c1243934658781a9F7A2CBd1E40f6bF"
-      }
-    },
-    "dfns": {
-      "kms": {
-        "operator_rewarder": "0x9beA3550C355640ce9A6805eDE5Ef4B4242fe2f1",
-        "operator_staking": "0x8e0bFD7736E9628E2179fB98d44223eF9840fBC7"
-      }
-    },
-    "etherscan": {
-      "kms": {
-        "operator_rewarder": "0xa0F333e8478f092C83F512d8684697b8402A13AA",
-        "operator_staking": "0xDF3f304c291466F21BB711d00E48a0d9AD9D64aF"
-      }
-    },
-    "figment": {
-      "kms": {
-        "operator_rewarder": "0xBA07aC6121639C00307Fb7b869eB6C28C7dDc2A5",
-        "operator_staking": "0x1a5f6C8FFdd869b30FFC73cC9424025829aCad04"
-      }
-    },
-    "fireblocks": {
-      "kms": {
-        "operator_rewarder": "0xDDE05a52a91E060A2912f41A3020fB8a64fB6898",
-        "operator_staking": "0xe85765700Ef107E94fd57FbF1D1863ff87a2948D"
-      }
-    },
-    "infstones": {
-      "kms": {
-        "operator_rewarder": "0x84e4aEd40682854804980F0CeDE22021b2332DdD",
-        "operator_staking": "0x5F1310b6E8F7DcC24A9A6F74229cf66EE075d4D6"
-      }
-    },
-    "layerzero": {
-      "kms": {
-        "operator_rewarder": "0x8552cFd15Ac9BEB27B32265C842D0d7dE1Ea6907",
-        "operator_staking": "0x6c12eB5d89E6f89399610C7b3Efca40671E82F06"
-      }
-    },
-    "ledger": {
-      "kms": {
-        "operator_rewarder": "0x4e69A50244FD864DD92a4D4C0279Bd5A19BA3674",
-        "operator_staking": "0xe52419533D0322a57d6db28d32463aa6717FeA3c"
-      }
-    },
-    "luganodes": {
-      "coprocessor": {
-        "operator_rewarder": "0x54C96af59cE8dc776D10E906F6C6d65dBaA6b8a3",
-        "operator_staking": "0xe89d9ca0579F19B77af04b201E73A26CECA07600"
-      }
-    },
-    "omakase": {
-      "kms": {
-        "operator_rewarder": "0x0FA63Dd6a545fA3aAdb089232B8b498434393C7e",
-        "operator_staking": "0xb1A7026C28cB91604FB7B1669f060aB74A30c255"
-      }
-    },
-    "openzeppelin": {
-      "kms": {
-        "operator_rewarder": "0x515089940Cd2202D1eE49ee6F5f99DF598D21109",
-        "operator_staking": "0x76427A3830295406d4aBae5b4754749048f58098"
-      }
-    },
-    "p2p": {
-      "coprocessor": {
-        "operator_rewarder": "0xdDb13f5266474cCbeA7C5d45D140Ce9cc45F2527",
-        "operator_staking": "0x419Bcec8A8B60688AC7EfeFECC5f83E922191b2A"
-      }
-    },
-    "stake_capital": {
-      "kms": {
-        "operator_rewarder": "0xF10e5A61062f224837C199E98D362FA81F4211f6",
-        "operator_staking": "0xdd0a1B86C8bf653e5bA575bE81bBD733E59803Ae"
-      }
-    },
-    "unit410": {
-      "kms": {
-        "operator_rewarder": "0xE15e37219B8e468BF2174Da83925437f462c2506",
-        "operator_staking": "0xFcC6F9cA8CC4A491B05306D57374a3F6c1f52484"
-      }
-    },
-    "zama": {
-      "coprocessor": {
-        "operator_rewarder": "0xb58b77b140d6618f46B8115Cd3C10D856b3c7780",
-        "operator_staking": "0x1504646d2e4F924db4c6D6F8e42713e5492604ce"
-      },
-      "kms": {
-        "operator_rewarder": "0x458E9C3e87CF8fE7FCbD418e8C0AE9D09E581ad3",
-        "operator_staking": "0x454D1738C8eD25C744aF01730EE39a27B683A246"
-      }
-    }
-  },
   "parameters": {},
   "schema_version": 1
 }

@@ -1,10 +1,10 @@
 {
-  "git_source_commit": "ef892ea8b3510ec0f1cb01a8cb0ec5fbfd3cf0ed",
-  "generated_at": "2026-07-17T14:48:06.316Z",
+  "git_source_commit": "7de9d060c3f64f78caa7ccff5060b7f887b9793f",
+  "generated_at": "2026-07-27T21:37:32.726Z",
   "files_sha256sum": {
-    "mainnet.json": "4730f1fea3032e31e884b14c65f307755de6b8c9e2296f8368ff9b3a17941990",
+    "mainnet.json": "0a0394ca0aa266c7104c5010d62ef63228c150bbf4262af6cac334cfcaa7afd4",
     "mainnet.md": "f9df7f8b81298363818829aa5c421e0a71a73090e615d9c94bd488ddd654e65f",
-    "testnet.json": "31d984d53c8d79c0fd564aba52638a97e3450cd109acc8a2d89be1291dac7ffc",
-    "testnet.md": "6ae5a9c4a9c0b04f1bff8a31f274b0c9ce1197a23d267cb1594b965318bc435a"
+    "testnet.json": "a1c75e7b2e2ae8bc36ed0ca22a742cde6c4b4297c2264425b08efb0aab617268",
+    "testnet.md": "9495f3f20c4e4ad3c171f31d8032f46c33b0ea9f48888abc2bea2b340787a233"
   }
 }
