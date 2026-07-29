@@ -177,6 +177,26 @@
 
 ## Polygon Amoy (`polygon_amoy`)
 
+### Token
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `AMOY_USDC_MOCK` | `erc20` | [`0x8516e725223e3F829537D6A877E1aAE954811B69`](https://amoy.polygonscan.com/address/0x8516e725223e3F829537D6A877E1aAE954811B69) | USDCMock. Mock USDC on Polygon Amoy. Minting restricted to 1M tokens. |
+| `AMOY_USDT_MOCK` | `erc20` | [`0x164F5A056166d8F2ce09FdAc6d040209a8C94d01`](https://amoy.polygonscan.com/address/0x164F5A056166d8F2ce09FdAc6d040209a8C94d01) | USDTMock. Mock USDT on Polygon Amoy. Minting restricted to 1M tokens |
+
+### Wrappers registry
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `AMOY_TOKEN_WRAPPER_REGISTRY` | `token_wrapper_registry` | [`0xF486c3D4F4562760A43883e72E8D6f6Cf2EFdA94`](https://amoy.polygonscan.com/address/0xF486c3D4F4562760A43883e72E8D6f6Cf2EFdA94) | — |
+
+### Confidential tokens
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `AMOY_CONFIDENTIAL_USDC_MOCK` | `confidential_wrapper` | [`0x7a1728f2A07cE4D62167dE1348af168509011b7b`](https://amoy.polygonscan.com/address/0x7a1728f2A07cE4D62167dE1348af168509011b7b) | cUSDCMock. |
+| `AMOY_CONFIDENTIAL_USDT_MOCK` | `confidential_wrapper` | [`0x2ABad2203Eba104b52cf040cCcFA100Df15687F8`](https://amoy.polygonscan.com/address/0x2ABad2203Eba104b52cf040cCcFA100Df15687F8) | cUSDTMock. |
+
 ### Governance
 
 | Contract | Type | Address | Notes |

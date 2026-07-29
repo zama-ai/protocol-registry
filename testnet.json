@@ -62,6 +62,24 @@
       "chain": "polygon_amoy",
       "type": "admin_module"
     },
+    "AMOY_CONFIDENTIAL_USDC_MOCK": {
+      "address": "0x7a1728f2A07cE4D62167dE1348af168509011b7b",
+      "chain": "polygon_amoy",
+      "owner": "AMOY_SAFE",
+      "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "symbol": "cUSDCMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x8516e725223e3F829537D6A877E1aAE954811B69"
+    },
+    "AMOY_CONFIDENTIAL_USDT_MOCK": {
+      "address": "0x2ABad2203Eba104b52cf040cCcFA100Df15687F8",
+      "chain": "polygon_amoy",
+      "owner": "AMOY_SAFE",
+      "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "symbol": "cUSDTMock",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x164F5A056166d8F2ce09FdAc6d040209a8C94d01"
+    },
     "AMOY_FHEVM_EXECUTOR": {
       "address": "0x89420269f61e4db00545cd99da0aEcA7fF0912f9",
       "chain": "polygon_amoy",
@@ -115,6 +133,27 @@
       "threshold": 3,
       "total_signers": 5,
       "type": "gnosis_safe"
+    },
+    "AMOY_TOKEN_WRAPPER_REGISTRY": {
+      "address": "0xF486c3D4F4562760A43883e72E8D6f6Cf2EFdA94",
+      "chain": "polygon_amoy",
+      "owner": "AMOY_SAFE",
+      "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
+      "type": "token_wrapper_registry"
+    },
+    "AMOY_USDC_MOCK": {
+      "address": "0x8516e725223e3F829537D6A877E1aAE954811B69",
+      "chain": "polygon_amoy",
+      "note": "Mock USDC on Polygon Amoy. Minting restricted to 1M tokens.",
+      "symbol": "USDCMock",
+      "type": "erc20"
+    },
+    "AMOY_USDT_MOCK": {
+      "address": "0x164F5A056166d8F2ce09FdAc6d040209a8C94d01",
+      "chain": "polygon_amoy",
+      "note": "Mock USDT on Polygon Amoy. Minting restricted to 1M tokens",
+      "symbol": "USDTMock",
+      "type": "erc20"
     },
     "BRON_MOCK": {
       "address": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E",
