@@ -29,6 +29,13 @@
       "display_name": "HyperEVM",
       "lz_endpoint_id": 30367
     },
+    "polygon": {
+      "address_type": "evm",
+      "block_explorer": "https://polygonscan.com/",
+      "chain_id": 137,
+      "display_name": "Polygon",
+      "lz_endpoint_id": 30109
+    },
     "solana": {
       "address_type": "solana_base58",
       "block_explorer": "https://explorer.solana.com",
@@ -51,7 +58,7 @@
       "note": "Trusted Safe module on Gateway; receives admin calls from GOVERNANCE_OAPP_RECEIVER",
       "type": "admin_module"
     },
-    "BNB_SAFE": {
+    "BNB_OFT_SAFE": {
       "address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
       "chain": "bsc",
       "custom_link": "https://app.safe.global/home?safe=bnb:0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
@@ -216,12 +223,21 @@
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "type": "layerzero_oapp_sender"
     },
+    "GOVERNANCE_OAPP_SENDER_TO_POLYGON": {
+      "address": "0x8d3FbB9FB34E5dF40A293C2aA4ea49634e340935",
+      "chain": "ethereum",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "type": "layerzero_oapp_sender"
+    },
     "HCU_LIMIT": {
       "address": "0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2",
       "chain": "ethereum",
       "type": "fhevm_hcu_limit"
     },
-    "HYPEREVM_SAFE": {
+    "HYPEREVM_OFT_SAFE": {
       "address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
       "chain": "hyper_evm",
       "custom_link": "https://app.safe.global/home?safe=hyper-evm:0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
@@ -534,6 +550,28 @@
       "note": "Controls pauser role on ZAMA_TOKEN",
       "type": "pauser_set"
     },
+    "POLYGON_ADMIN_MODULE": {
+      "address": "0x826106E9428460449d35F724F7098d0a67369AE2",
+      "chain": "polygon",
+      "type": "admin_module"
+    },
+    "POLYGON_GOVERNANCE_OAPP_RECEIVER": {
+      "address": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3",
+      "chain": "polygon",
+      "delegate": "POLYGON_GOVERNANCE_SAFE",
+      "delegate_address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "owner": "POLYGON_GOVERNANCE_SAFE",
+      "owner_address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "type": "layerzero_oapp_receiver"
+    },
+    "POLYGON_GOVERNANCE_SAFE": {
+      "address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "chain": "polygon",
+      "custom_link": "https://app.safe.global/home?safe=matic:0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "threshold": 9,
+      "total_signers": 17,
+      "type": "gnosis_safe"
+    },
     "PROTOCOL_DAO": {
       "address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "chain": "ethereum",
@@ -579,7 +617,7 @@
       "total_signers": 5,
       "type": "aragon_multisig_plugin"
     },
-    "SQUADS_VAULT_ID": {
+    "SOLANA_OFT_SQUADS_VAULT_ID": {
       "address": "G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5",
       "chain": "solana",
       "custom_link": "https://app.squads.so/squads/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5/home",
@@ -606,9 +644,9 @@
     "ZAMA_OFT_BNB": {
       "address": "0x6907A5986C4950Bdaf2F81828Ec0737ce787519f",
       "chain": "bsc",
-      "delegate": "BNB_SAFE",
+      "delegate": "BNB_OFT_SAFE",
       "delegate_address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
-      "owner": "BNB_SAFE",
+      "owner": "BNB_OFT_SAFE",
       "owner_address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
       "type": "layerzero_oft"
     },
@@ -629,9 +667,9 @@
     "ZAMA_OFT_HYPEREVM": {
       "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
       "chain": "hyper_evm",
-      "delegate": "HYPEREVM_SAFE",
+      "delegate": "HYPEREVM_OFT_SAFE",
       "delegate_address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
-      "owner": "HYPEREVM_SAFE",
+      "owner": "HYPEREVM_OFT_SAFE",
       "owner_address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
       "type": "layerzero_oft"
     },
@@ -645,7 +683,7 @@
       "address": "4Zp52aF4hZi9fzH19xpbWKYKQvgLyCN67KFbrQDqeTKh",
       "chain": "solana",
       "note": "This is the SPL token logic used by exchanges and wallets",
-      "owner": "SQUADS_VAULT_ID",
+      "owner": "SOLANA_OFT_SQUADS_VAULT_ID",
       "owner_address": "G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5",
       "type": "layerzero_oft_solana"
     },
@@ -788,6 +826,22 @@
       ],
       "optional_threshold": 2,
       "pathway": "Ethereum -> HyperEVM",
+      "required_dvns": [
+        "LayerZero Labs"
+      ]
+    },
+    {
+      "a_chain": "ethereum",
+      "a_to_b_confirmations": 15,
+      "b_chain": "polygon",
+      "b_to_a_confirmations": 120,
+      "optional_dvns": [
+        "Nethermind",
+        "Luganodes",
+        "P2P"
+      ],
+      "optional_threshold": 2,
+      "pathway": "Ethereum -> Polygon",
       "required_dvns": [
         "LayerZero Labs"
       ]
