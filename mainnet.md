@@ -14,7 +14,7 @@
 
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
-| `BNB_OFT_SAFE` | `gnosis_safe` | [`0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B`](https://bscscan.com/address/0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B) | — |
+| `BNB_OFT_SAFE` | `gnosis_safe` | [`0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B`](https://bscscan.com/address/0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B) | Only owns ZAMA_OFT_BNB. |
 
 ## Ethereum (`ethereum`)
 
@@ -84,7 +84,7 @@
 | `GOV_MULTISIG` | `aragon_multisig_plugin` | [`0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f`](https://etherscan.io/address/0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f) | Has execution permission on PROTOCOL_DAO. |
 | `GOVERNANCE_OAPP_SENDER` | `layerzero_oapp_sender` | [`0x1c5D750D18917064915901048cdFb2dB815e0910`](https://etherscan.io/address/0x1c5D750D18917064915901048cdFb2dB815e0910) | Sends governance messages from Ethereum to other chains via LayerZero |
 | `GOVERNANCE_OAPP_SENDER_TO_POLYGON` | `layerzero_oapp_sender` | [`0x8d3FbB9FB34E5dF40A293C2aA4ea49634e340935`](https://etherscan.io/address/0x8d3FbB9FB34E5dF40A293C2aA4ea49634e340935) | — |
-| `PROTOCOL_DAO` | `aragon_dao` | [`0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3`](https://etherscan.io/address/0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3) | Primary Aragon governance DAO on Ethereum |
+| `PROTOCOL_DAO` | `aragon_dao` | [`0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3`](https://etherscan.io/address/0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3) | Primary Aragon governance DAO on Ethereum. It holds ownership of the protocol contracts on Ethereum. |
 | `SETUP_MULTISIG` | `aragon_multisig_plugin` | [`0xBc860b6a4C860C5424B84A056E53ACFb2C99a38F`](https://etherscan.io/address/0xBc860b6a4C860C5424B84A056E53ACFb2C99a38F) | Has execution permission on PROTOCOL_DAO |
 
 ### Pausing
@@ -123,7 +123,7 @@
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
 | `ADMIN_MODULE` | `admin_module` | [`0x57f866b5E7Fb82Fb812Ed3D3C79cdB35E9e91518`](https://explorer.mainnet.zama.org/address/0x57f866b5E7Fb82Fb812Ed3D3C79cdB35E9e91518) | Trusted Safe module on Gateway; receives admin calls from GOVERNANCE_OAPP_RECEIVER |
-| `GATEWAY_SAFE` | `gnosis_safe` | [`0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE`](https://explorer.mainnet.zama.org/address/0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE) | Only partially verified on Blockscout because verification of transparent proxy is not supported. |
+| `GATEWAY_SAFE` | `gnosis_safe` | [`0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE`](https://explorer.mainnet.zama.org/address/0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE) | Governance address that holds ownership of the protocol contracts on Gateway. Only partially verified on Blockscout because verification of transparent proxy is not supported. |
 | `GATEWAY_SAFE_L2_IMPLEM` | `gateway_safe_l2_implementation` | [`0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2`](https://explorer.mainnet.zama.org/address/0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2) | This is not the proxy. The implementation is unique and can be reused for deploying new safes. |
 | `GATEWAY_SAFE_PROXY_FACTORY` | `gateway_safe_proxy_factory` | [`0x3Ec655dD0F874a61B595D672757A08Ce7d97e047`](https://explorer.mainnet.zama.org/address/0x3Ec655dD0F874a61B595D672757A08Ce7d97e047) | This is not the proxy. The proxy factory is unique and can be reused for deploying new safes. |
 | `GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0x10795261A06285D3718674a9Cf98Ea66F7C6A0c6`](https://explorer.mainnet.zama.org/address/0x10795261A06285D3718674a9Cf98Ea66F7C6A0c6) | Receives governance messages from Ethereum on Gateway |
@@ -165,7 +165,7 @@
 
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
-| `HYPEREVM_OFT_SAFE` | `gnosis_safe` | [`0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827`](https://hyperevmscan.io/address/0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827) | — |
+| `HYPEREVM_OFT_SAFE` | `gnosis_safe` | [`0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827`](https://hyperevmscan.io/address/0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827) | Only owns ZAMA_OFT_HYPEREVM. |
 
 ## Polygon (`polygon`)
 
@@ -175,7 +175,7 @@
 | -------- | ---- | ------- | ----- |
 | `POLYGON_ADMIN_MODULE` | `admin_module` | [`0x826106E9428460449d35F724F7098d0a67369AE2`](https://polygonscan.com/address/0x826106E9428460449d35F724F7098d0a67369AE2) | — |
 | `POLYGON_GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3`](https://polygonscan.com/address/0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3) | — |
-| `POLYGON_GOVERNANCE_SAFE` | `gnosis_safe` | [`0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55`](https://polygonscan.com/address/0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55) | — |
+| `POLYGON_GOVERNANCE_SAFE` | `gnosis_safe` | [`0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55`](https://polygonscan.com/address/0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55) | Governance address that holds ownership of the protocol contracts on Polygon. |
 
 ## Solana (`solana`)
 
@@ -192,4 +192,4 @@
 
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
-| `SOLANA_OFT_SQUADS_VAULT_ID` | `squads_vault` | [`G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5`](https://explorer.solana.com/address/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5) | — |
+| `SOLANA_OFT_SQUADS_VAULT_ID` | `squads_vault` | [`G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5`](https://explorer.solana.com/address/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5) | Only owns ZAMA_OFT_SOL. |

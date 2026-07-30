@@ -60,8 +60,9 @@
     },
     "BNB_OFT_SAFE": {
       "address": "0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "app": "https://app.safe.global/home?safe=bnb:0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
       "chain": "bsc",
-      "custom_link": "https://app.safe.global/home?safe=bnb:0xa40939fDe3883D2e7Cd5C32f53AB241804d2779B",
+      "note": "Only owns ZAMA_OFT_BNB.",
       "threshold": 3,
       "total_signers": 5,
       "type": "gnosis_safe"
@@ -178,7 +179,7 @@
     "GATEWAY_SAFE": {
       "address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
       "chain": "gateway",
-      "note": "Only partially verified on Blockscout because verification of transparent proxy is not supported.",
+      "note": "Governance address that holds ownership of the protocol contracts on Gateway. Only partially verified on Blockscout because verification of transparent proxy is not supported.",
       "threshold": 3,
       "total_signers": 5,
       "type": "gnosis_safe"
@@ -239,8 +240,9 @@
     },
     "HYPEREVM_OFT_SAFE": {
       "address": "0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "app": "https://app.safe.global/home?safe=hyper-evm:0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
       "chain": "hyper_evm",
-      "custom_link": "https://app.safe.global/home?safe=hyper-evm:0x0d66642a5Bc6E32e013f47E08f9db9bDb1268827",
+      "note": "Only owns ZAMA_OFT_HYPEREVM.",
       "threshold": 3,
       "total_signers": 5,
       "type": "gnosis_safe"
@@ -566,16 +568,18 @@
     },
     "POLYGON_GOVERNANCE_SAFE": {
       "address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "app": "https://app.safe.global/home?safe=matic:0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
       "chain": "polygon",
-      "custom_link": "https://app.safe.global/home?safe=matic:0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "note": "Governance address that holds ownership of the protocol contracts on Polygon.",
       "threshold": 9,
       "total_signers": 17,
       "type": "gnosis_safe"
     },
     "PROTOCOL_DAO": {
       "address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "app": "https://app.aragon.org/dao/ethereum-mainnet/zama.dao.eth/",
       "chain": "ethereum",
-      "note": "Primary Aragon governance DAO on Ethereum",
+      "note": "Primary Aragon governance DAO on Ethereum. It holds ownership of the protocol contracts on Ethereum.",
       "type": "aragon_dao"
     },
     "PROTOCOL_FEES_BURNER": {
@@ -619,8 +623,9 @@
     },
     "SOLANA_OFT_SQUADS_VAULT_ID": {
       "address": "G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5",
+      "app": "https://app.squads.so/squads/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5/home",
       "chain": "solana",
-      "custom_link": "https://app.squads.so/squads/G9jXsKZ2XXfNEks2dmouKiJJFBWcn8SQHmMkcy3TUVf5/home",
+      "note": "Only owns ZAMA_OFT_SOL.",
       "threshold": 4,
       "total_signers": 6,
       "type": "squads_vault"

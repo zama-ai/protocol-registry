@@ -727,6 +727,7 @@
     },
     "PROTOCOL_DAO": {
       "address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "app": "https://app.aragon.org/dao/ethereum-sepolia/0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52/",
       "chain": "ethereum_sepolia",
       "note": "Primary Aragon governance DAO on Sepolia",
       "type": "aragon_dao"
