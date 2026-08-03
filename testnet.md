@@ -103,8 +103,8 @@
 
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
-| `GOVERNANCE_OAPP_SENDER` | `layerzero_oapp_sender` | [`0x909692c2f4979ca3fa11B5859d499308A1ec4932`](https://sepolia.etherscan.io/address/0x909692c2f4979ca3fa11B5859d499308A1ec4932) | — |
-| `GOVERNANCE_OAPP_SENDER_TO_AMOY` | `layerzero_oapp_sender` | [`0xe57ea2f14f3051296d3965Bae8caAF86acdd6050`](https://sepolia.etherscan.io/address/0xe57ea2f14f3051296d3965Bae8caAF86acdd6050) | — |
+| `GOVERNANCE_OAPP_SENDER_TO_AMOY` | `layerzero_oapp_sender` | [`0xe57ea2f14f3051296d3965Bae8caAF86acdd6050`](https://sepolia.etherscan.io/address/0xe57ea2f14f3051296d3965Bae8caAF86acdd6050) | Sends governance messages from Sepolia to Polygon Amoy via LayerZero |
+| `GOVERNANCE_OAPP_SENDER_TO_GATEWAY` | `layerzero_oapp_sender` | [`0x909692c2f4979ca3fa11B5859d499308A1ec4932`](https://sepolia.etherscan.io/address/0x909692c2f4979ca3fa11B5859d499308A1ec4932) | Sends governance messages from Sepolia to Gateway Testnet via LayerZero |
 | `PROTOCOL_DAO` | `aragon_dao` | [`0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52`](https://sepolia.etherscan.io/address/0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52) | Primary Aragon governance DAO on Sepolia |
 | `SETUP_MULTISIG` | `aragon_multisig_plugin` | [`0x6d5521B3B0b8E36F6942EAF3fc62bB9e096a6f9a`](https://sepolia.etherscan.io/address/0x6d5521B3B0b8E36F6942EAF3fc62bB9e096a6f9a) | Has execution permission on PROTOCOL_DAO. |
 
@@ -147,8 +147,8 @@
 | -------- | ---- | ------- | ----- |
 | `ADMIN_MODULE` | `admin_module` | [`0x53dB449A96d0319DD1f90102dA116Bb9aB0483bB`](https://explorer.testnet.zama.org/address/0x53dB449A96d0319DD1f90102dA116Bb9aB0483bB) | — |
 | `GATEWAY_SAFE` | `gnosis_safe` | [`0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9`](https://explorer.testnet.zama.org/address/0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9) | Only partially verified on Blockscout because verification of transparent proxy is not supported. |
-| `GATEWAY_SAFE_L2_IMPLEM` | `gateway_safe_l2_implementation` | [`0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01`](https://explorer.testnet.zama.org/address/0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01) | This is not the proxy. The implementation is unique and can be reused for deploying new safes. |
-| `GATEWAY_SAFE_PROXY_FACTORY` | `gateway_safe_proxy_factory` | [`0xaa5f197a549685a2C4a088069aB5793d3887A090`](https://explorer.testnet.zama.org/address/0xaa5f197a549685a2C4a088069aB5793d3887A090) | This is not the proxy. The proxy factory is unique and can be reused for deploying new safes. |
+| `GATEWAY_SAFE_L2_IMPLEM` | `safe_l2_implementation` | [`0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01`](https://explorer.testnet.zama.org/address/0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01) | This is not the proxy. The implementation is unique and can be reused for deploying new safes. |
+| `GATEWAY_SAFE_PROXY_FACTORY` | `safe_proxy_factory` | [`0xaa5f197a549685a2C4a088069aB5793d3887A090`](https://explorer.testnet.zama.org/address/0xaa5f197a549685a2C4a088069aB5793d3887A090) | This is not the proxy. The proxy factory is unique and can be reused for deploying new safes. |
 | `GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0x998E9484Aa2a9Ae5B0C8a93B4bD2ea2a5C1B6fF0`](https://explorer.testnet.zama.org/address/0x998E9484Aa2a9Ae5B0C8a93B4bD2ea2a5C1B6fF0) | — |
 
 ### Pausing

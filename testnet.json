@@ -5,19 +5,23 @@
       "block_explorer": "https://testnet.bscscan.com",
       "chain_id": 97,
       "display_name": "BSC Testnet",
+      "lz_endpoint_address": "0x6EDCE65403992e310A62460808c4b910D972f10f",
       "lz_endpoint_id": 40102
     },
     "ethereum_hoodi": {
       "address_type": "evm",
       "block_explorer": "https://eth-hoodi.blockscout.com",
       "chain_id": 560048,
-      "display_name": "Ethereum Hoodi"
+      "display_name": "Ethereum Hoodi",
+      "lz_endpoint_address": "0x3aCAAf60502791D199a5a5F0B173D78229eBFe32",
+      "lz_endpoint_id": 40449
     },
     "ethereum_sepolia": {
       "address_type": "evm",
       "block_explorer": "https://sepolia.etherscan.io",
       "chain_id": 11155111,
       "display_name": "Ethereum Sepolia",
+      "lz_endpoint_address": "0x6EDCE65403992e310A62460808c4b910D972f10f",
       "lz_endpoint_id": 40161
     },
     "gateway_testnet": {
@@ -26,6 +30,7 @@
       "chain_id": 10901,
       "conduit_hub": "https://hub.conduit.xyz/share/H56c0FfZJVfaNQ8mW8aZO",
       "display_name": "Gateway Testnet",
+      "lz_endpoint_address": "0x3aCAAf60502791D199a5a5F0B173D78229eBFe32",
       "lz_endpoint_id": 40424
     },
     "polygon_amoy": {
@@ -33,6 +38,7 @@
       "block_explorer": "https://amoy.polygonscan.com/",
       "chain_id": 80002,
       "display_name": "Polygon Amoy",
+      "lz_endpoint_address": "0x6EDCE65403992e310A62460808c4b910D972f10f",
       "lz_endpoint_id": 40267
     }
   },
@@ -285,13 +291,13 @@
       "address": "0x43cdd2cCbeB38Eb62fDf54e17aFBabf450ebBB01",
       "chain": "gateway_testnet",
       "note": "This is not the proxy. The implementation is unique and can be reused for deploying new safes.",
-      "type": "gateway_safe_l2_implementation"
+      "type": "safe_l2_implementation"
     },
     "GATEWAY_SAFE_PROXY_FACTORY": {
       "address": "0xaa5f197a549685a2C4a088069aB5793d3887A090",
       "chain": "gateway_testnet",
       "note": "This is not the proxy. The proxy factory is unique and can be reused for deploying new safes.",
-      "type": "gateway_safe_proxy_factory"
+      "type": "safe_proxy_factory"
     },
     "GOVERNANCE_OAPP_RECEIVER": {
       "address": "0x998E9484Aa2a9Ae5B0C8a93B4bD2ea2a5C1B6fF0",
@@ -302,20 +308,22 @@
       "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
       "type": "layerzero_oapp_receiver"
     },
-    "GOVERNANCE_OAPP_SENDER": {
-      "address": "0x909692c2f4979ca3fa11B5859d499308A1ec4932",
-      "chain": "ethereum_sepolia",
-      "delegate": "PROTOCOL_DAO",
-      "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
-      "owner": "PROTOCOL_DAO",
-      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
-      "type": "layerzero_oapp_sender"
-    },
     "GOVERNANCE_OAPP_SENDER_TO_AMOY": {
       "address": "0xe57ea2f14f3051296d3965Bae8caAF86acdd6050",
       "chain": "ethereum_sepolia",
       "delegate": "PROTOCOL_DAO",
       "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "note": "Sends governance messages from Sepolia to Polygon Amoy via LayerZero",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "type": "layerzero_oapp_sender"
+    },
+    "GOVERNANCE_OAPP_SENDER_TO_GATEWAY": {
+      "address": "0x909692c2f4979ca3fa11B5859d499308A1ec4932",
+      "chain": "ethereum_sepolia",
+      "delegate": "PROTOCOL_DAO",
+      "delegate_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "note": "Sends governance messages from Sepolia to Gateway Testnet via LayerZero",
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "type": "layerzero_oapp_sender"

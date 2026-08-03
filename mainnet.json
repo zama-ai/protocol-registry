@@ -5,6 +5,7 @@
       "block_explorer": "https://bscscan.com",
       "chain_id": 56,
       "display_name": "BSC",
+      "lz_endpoint_address": "0x1a44076050125825900e736c501f859c50fE728c",
       "lz_endpoint_id": 30102
     },
     "ethereum": {
@@ -12,6 +13,7 @@
       "block_explorer": "https://etherscan.io",
       "chain_id": 1,
       "display_name": "Ethereum",
+      "lz_endpoint_address": "0x1a44076050125825900e736c501f859c50fE728c",
       "lz_endpoint_id": 30101
     },
     "gateway": {
@@ -20,6 +22,7 @@
       "chain_id": 261131,
       "conduit_hub": "https://hub.conduit.xyz/share/IZ6SRVHPIY8BfKxabWQKP",
       "display_name": "Gateway",
+      "lz_endpoint_address": "0x6F475642a6e85809B1c36Fa62763669b1b48DD5B",
       "lz_endpoint_id": 30397
     },
     "hyper_evm": {
@@ -27,6 +30,7 @@
       "block_explorer": "https://hyperevmscan.io",
       "chain_id": 999,
       "display_name": "HyperEVM",
+      "lz_endpoint_address": "0x3A73033C0b1407574C76BdBAc67f126f6b4a9AA9",
       "lz_endpoint_id": 30367
     },
     "polygon": {
@@ -41,6 +45,7 @@
       "block_explorer": "https://explorer.solana.com",
       "display_name": "Solana",
       "lz_display_name": "SOL",
+      "lz_endpoint_address": "76y77prsiCMvXMjuoZ5VRrhG5qYBrUMYTE5WgHqgjEn6",
       "lz_endpoint_id": 30168
     }
   },
@@ -188,13 +193,13 @@
       "address": "0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2",
       "chain": "gateway",
       "note": "This is not the proxy. The implementation is unique and can be reused for deploying new safes.",
-      "type": "gateway_safe_l2_implementation"
+      "type": "safe_l2_implementation"
     },
     "GATEWAY_SAFE_PROXY_FACTORY": {
       "address": "0x3Ec655dD0F874a61B595D672757A08Ce7d97e047",
       "chain": "gateway",
       "note": "This is not the proxy. The proxy factory is unique and can be reused for deploying new safes.",
-      "type": "gateway_safe_proxy_factory"
+      "type": "safe_proxy_factory"
     },
     "GOV_MULTISIG": {
       "address": "0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f",
@@ -214,12 +219,12 @@
       "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
       "type": "layerzero_oapp_receiver"
     },
-    "GOVERNANCE_OAPP_SENDER": {
+    "GOVERNANCE_OAPP_SENDER_TO_GATEWAY": {
       "address": "0x1c5D750D18917064915901048cdFb2dB815e0910",
       "chain": "ethereum",
       "delegate": "PROTOCOL_DAO",
       "delegate_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
-      "note": "Sends governance messages from Ethereum to other chains via LayerZero",
+      "note": "Sends governance messages from Ethereum to Gateway Mainnet via LayerZero",
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "type": "layerzero_oapp_sender"

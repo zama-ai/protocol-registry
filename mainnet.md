@@ -82,7 +82,7 @@
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
 | `GOV_MULTISIG` | `aragon_multisig_plugin` | [`0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f`](https://etherscan.io/address/0xE43c73aAb2b6aBBad6d0461997ce1cfea5ABe66f) | Has execution permission on PROTOCOL_DAO. |
-| `GOVERNANCE_OAPP_SENDER` | `layerzero_oapp_sender` | [`0x1c5D750D18917064915901048cdFb2dB815e0910`](https://etherscan.io/address/0x1c5D750D18917064915901048cdFb2dB815e0910) | Sends governance messages from Ethereum to other chains via LayerZero |
+| `GOVERNANCE_OAPP_SENDER_TO_GATEWAY` | `layerzero_oapp_sender` | [`0x1c5D750D18917064915901048cdFb2dB815e0910`](https://etherscan.io/address/0x1c5D750D18917064915901048cdFb2dB815e0910) | Sends governance messages from Ethereum to Gateway Mainnet via LayerZero |
 | `GOVERNANCE_OAPP_SENDER_TO_POLYGON` | `layerzero_oapp_sender` | [`0x8d3FbB9FB34E5dF40A293C2aA4ea49634e340935`](https://etherscan.io/address/0x8d3FbB9FB34E5dF40A293C2aA4ea49634e340935) | — |
 | `PROTOCOL_DAO` | `aragon_dao` | [`0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3`](https://etherscan.io/address/0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3) | Primary Aragon governance DAO on Ethereum. It holds ownership of the protocol contracts on Ethereum. |
 | `SETUP_MULTISIG` | `aragon_multisig_plugin` | [`0xBc860b6a4C860C5424B84A056E53ACFb2C99a38F`](https://etherscan.io/address/0xBc860b6a4C860C5424B84A056E53ACFb2C99a38F) | Has execution permission on PROTOCOL_DAO |
@@ -124,8 +124,8 @@
 | -------- | ---- | ------- | ----- |
 | `ADMIN_MODULE` | `admin_module` | [`0x57f866b5E7Fb82Fb812Ed3D3C79cdB35E9e91518`](https://explorer.mainnet.zama.org/address/0x57f866b5E7Fb82Fb812Ed3D3C79cdB35E9e91518) | Trusted Safe module on Gateway; receives admin calls from GOVERNANCE_OAPP_RECEIVER |
 | `GATEWAY_SAFE` | `gnosis_safe` | [`0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE`](https://explorer.mainnet.zama.org/address/0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE) | Governance address that holds ownership of the protocol contracts on Gateway. Only partially verified on Blockscout because verification of transparent proxy is not supported. |
-| `GATEWAY_SAFE_L2_IMPLEM` | `gateway_safe_l2_implementation` | [`0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2`](https://explorer.mainnet.zama.org/address/0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2) | This is not the proxy. The implementation is unique and can be reused for deploying new safes. |
-| `GATEWAY_SAFE_PROXY_FACTORY` | `gateway_safe_proxy_factory` | [`0x3Ec655dD0F874a61B595D672757A08Ce7d97e047`](https://explorer.mainnet.zama.org/address/0x3Ec655dD0F874a61B595D672757A08Ce7d97e047) | This is not the proxy. The proxy factory is unique and can be reused for deploying new safes. |
+| `GATEWAY_SAFE_L2_IMPLEM` | `safe_l2_implementation` | [`0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2`](https://explorer.mainnet.zama.org/address/0x2E2eE70C4fD5a29b29113a29BB16d58939F6b7E2) | This is not the proxy. The implementation is unique and can be reused for deploying new safes. |
+| `GATEWAY_SAFE_PROXY_FACTORY` | `safe_proxy_factory` | [`0x3Ec655dD0F874a61B595D672757A08Ce7d97e047`](https://explorer.mainnet.zama.org/address/0x3Ec655dD0F874a61B595D672757A08Ce7d97e047) | This is not the proxy. The proxy factory is unique and can be reused for deploying new safes. |
 | `GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0x10795261A06285D3718674a9Cf98Ea66F7C6A0c6`](https://explorer.mainnet.zama.org/address/0x10795261A06285D3718674a9Cf98Ea66F7C6A0c6) | Receives governance messages from Ethereum on Gateway |
 
 ### Pausing
