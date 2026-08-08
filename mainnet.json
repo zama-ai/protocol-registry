@@ -557,10 +557,20 @@
       "note": "Controls pauser role on ZAMA_TOKEN",
       "type": "pauser_set"
     },
+    "POLYGON_ACL_HOST": {
+      "address": "0x6737F17e31cf26a1b62fb0362acC5a16CB156F49",
+      "chain": "polygon",
+      "type": "fhevm_acl"
+    },
     "POLYGON_ADMIN_MODULE": {
       "address": "0x826106E9428460449d35F724F7098d0a67369AE2",
       "chain": "polygon",
       "type": "admin_module"
+    },
+    "POLYGON_FHEVM_EXECUTOR": {
+      "address": "0xAB0075E77fe06083f52bdf10e2ccDB3712483057",
+      "chain": "polygon",
+      "type": "fhevm_executor"
     },
     "POLYGON_GOVERNANCE_OAPP_RECEIVER": {
       "address": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3",
@@ -579,6 +589,32 @@
       "threshold": 9,
       "total_signers": 17,
       "type": "gnosis_safe"
+    },
+    "POLYGON_HCU_LIMIT": {
+      "address": "0x226cf23556E59e3284c3c7705868478746D338af",
+      "chain": "polygon",
+      "type": "fhevm_hcu_limit"
+    },
+    "POLYGON_INPUT_VERIFIER": {
+      "address": "0xf40BD204B035522EaAc8E5afAdc55113Acac96ca",
+      "chain": "polygon",
+      "type": "fhevm_verifier"
+    },
+    "POLYGON_KMS_VERIFIER": {
+      "address": "0x14e609595474874Dd6b6128376E336EfADfdBE37",
+      "chain": "polygon",
+      "type": "fhevm_kms_verifier"
+    },
+    "POLYGON_PAUSER_SET_HOST": {
+      "address": "0x96901aEaf7d2Aa81FaC70218c011fbe96E21640d",
+      "chain": "polygon",
+      "note": "Controls pausers for POLYGON_ACL_HOST",
+      "type": "pauser_set"
+    },
+    "POLYGON_PROTOCOL_CONFIG": {
+      "address": "0x17f62Ab3A1Ea519703cD597410147A30Fa1a7f1e",
+      "chain": "polygon",
+      "type": "fhevm_protocol_config"
     },
     "PROTOCOL_DAO": {
       "address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",

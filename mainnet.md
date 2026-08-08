@@ -177,6 +177,23 @@
 | `POLYGON_GOVERNANCE_OAPP_RECEIVER` | `layerzero_oapp_receiver` | [`0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3`](https://polygonscan.com/address/0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3) | — |
 | `POLYGON_GOVERNANCE_SAFE` | `gnosis_safe` | [`0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55`](https://polygonscan.com/address/0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55) | Governance address that holds ownership of the protocol contracts on Polygon. |
 
+### Pausing
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `POLYGON_PAUSER_SET_HOST` | `pauser_set` | [`0x96901aEaf7d2Aa81FaC70218c011fbe96E21640d`](https://polygonscan.com/address/0x96901aEaf7d2Aa81FaC70218c011fbe96E21640d) | Controls pausers for POLYGON_ACL_HOST |
+
+### FHEVM Protocol
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `POLYGON_ACL_HOST` | `fhevm_acl` | [`0x6737F17e31cf26a1b62fb0362acC5a16CB156F49`](https://polygonscan.com/address/0x6737F17e31cf26a1b62fb0362acC5a16CB156F49) | — |
+| `POLYGON_FHEVM_EXECUTOR` | `fhevm_executor` | [`0xAB0075E77fe06083f52bdf10e2ccDB3712483057`](https://polygonscan.com/address/0xAB0075E77fe06083f52bdf10e2ccDB3712483057) | — |
+| `POLYGON_HCU_LIMIT` | `fhevm_hcu_limit` | [`0x226cf23556E59e3284c3c7705868478746D338af`](https://polygonscan.com/address/0x226cf23556E59e3284c3c7705868478746D338af) | — |
+| `POLYGON_INPUT_VERIFIER` | `fhevm_verifier` | [`0xf40BD204B035522EaAc8E5afAdc55113Acac96ca`](https://polygonscan.com/address/0xf40BD204B035522EaAc8E5afAdc55113Acac96ca) | — |
+| `POLYGON_KMS_VERIFIER` | `fhevm_kms_verifier` | [`0x14e609595474874Dd6b6128376E336EfADfdBE37`](https://polygonscan.com/address/0x14e609595474874Dd6b6128376E336EfADfdBE37) | — |
+| `POLYGON_PROTOCOL_CONFIG` | `fhevm_protocol_config` | [`0x17f62Ab3A1Ea519703cD597410147A30Fa1a7f1e`](https://polygonscan.com/address/0x17f62Ab3A1Ea519703cD597410147A30Fa1a7f1e) | — |
+
 ## Solana (`solana`)
 
 ### Token
