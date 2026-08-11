@@ -108,7 +108,9 @@
 | `FHEVM_EXECUTOR` | `fhevm_executor` | [`0xD82385dADa1ae3E969447f20A3164F6213100e75`](https://etherscan.io/address/0xD82385dADa1ae3E969447f20A3164F6213100e75) | — |
 | `HCU_LIMIT` | `fhevm_hcu_limit` | [`0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2`](https://etherscan.io/address/0x3b4da65e45Fda2CAa0285A735ab4361a44F171E2) | — |
 | `INPUT_VERIFIER` | `fhevm_verifier` | [`0xCe0FC2e05CFff1B719EFF7169f7D80Af770c8EA2`](https://etherscan.io/address/0xCe0FC2e05CFff1B719EFF7169f7D80Af770c8EA2) | — |
+| `KMS_GENERATION_HOST` | `fhevm_kms_generation` | [`0xf102cC9A9D2174630c394f5b7B7D63104E348daa`](https://etherscan.io/address/0xf102cC9A9D2174630c394f5b7B7D63104E348daa) | — |
 | `KMS_VERIFIER` | `fhevm_kms_verifier` | [`0x77627828a55156b04Ac0DC0eb30467f1a552BB03`](https://etherscan.io/address/0x77627828a55156b04Ac0DC0eb30467f1a552BB03) | — |
+| `PROTOCOL_CONFIG` | `fhevm_protocol_config` | [`0xD8236B57394f90726b26aB25D38CeAC776E1a7C4`](https://etherscan.io/address/0xD8236B57394f90726b26aB25D38CeAC776E1a7C4) | — |
 
 ## Gateway (`gateway`)
 
