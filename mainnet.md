@@ -171,6 +171,18 @@
 
 ## Polygon (`polygon`)
 
+### Wrappers registry
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `POLYGON_TOKEN_WRAPPER_REGISTRY` | `token_wrapper_registry` | [`0xc8908569868758dAF814B5a8b96bBc44D1653d54`](https://polygonscan.com/address/0xc8908569868758dAF814B5a8b96bBc44D1653d54) | — |
+
+### Confidential tokens
+
+| Contract | Type | Address | Notes |
+| -------- | ---- | ------- | ----- |
+| `POLYGON_CONFIDENTIAL_USDC` | `confidential_wrapper` | [`0xbC8d2F447d16A3a28B554C684659177245CEd8E3`](https://polygonscan.com/address/0xbC8d2F447d16A3a28B554C684659177245CEd8E3) | cUSDC. The underlying token is the native USDC polygon token, not the bridged one |
+
 ### Governance
 
 | Contract | Type | Address | Notes |

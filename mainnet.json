@@ -572,6 +572,16 @@
       "chain": "polygon",
       "type": "admin_module"
     },
+    "POLYGON_CONFIDENTIAL_USDC": {
+      "address": "0xbC8d2F447d16A3a28B554C684659177245CEd8E3",
+      "chain": "polygon",
+      "note": "The underlying token is the native USDC polygon token, not the bridged one",
+      "owner": "POLYGON_GOVERNANCE_SAFE",
+      "owner_address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "symbol": "cUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+    },
     "POLYGON_FHEVM_EXECUTOR": {
       "address": "0xAB0075E77fe06083f52bdf10e2ccDB3712483057",
       "chain": "polygon",
@@ -620,6 +630,13 @@
       "address": "0x17f62Ab3A1Ea519703cD597410147A30Fa1a7f1e",
       "chain": "polygon",
       "type": "fhevm_protocol_config"
+    },
+    "POLYGON_TOKEN_WRAPPER_REGISTRY": {
+      "address": "0xc8908569868758dAF814B5a8b96bBc44D1653d54",
+      "chain": "polygon",
+      "owner": "POLYGON_GOVERNANCE_SAFE",
+      "owner_address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",
+      "type": "token_wrapper_registry"
     },
     "PROTOCOL_CONFIG": {
       "address": "0xD8236B57394f90726b26aB25D38CeAC776E1a7C4",
