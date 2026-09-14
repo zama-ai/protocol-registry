@@ -77,6 +77,60 @@
       "chain": "gateway",
       "type": "gateway_ciphertext_commits"
     },
+    "CONFIDENTIAL_ARMCWBTC": {
+      "address": "0xF921A5B0634f4236B21A4e948317abf9a2E86B6f",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "carmcWBTC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x3d5EcCb62974178236A768A7ef14D3ce468Fbe91"
+    },
+    "CONFIDENTIAL_ARMUSDCP": {
+      "address": "0x2ebBd099f66b0ca94DD82B4c06fe3eEf6AFf853c",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "carmUSDCp",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x5dc53a23AdC9f2Bed98de6F59F7F309a7c71FF2B"
+    },
+    "CONFIDENTIAL_ARMUSDCS": {
+      "address": "0x77F8207ee451441336538bA07a2F425780dED8DB",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "carmUSDCs",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xA2EAaD0D586cF9FD73bb2c09cF6A7E3e187D68cd"
+    },
+    "CONFIDENTIAL_ARMUSDTP": {
+      "address": "0x63a60aCC304b84eF829b263f28e7b636Bf77d45A",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "carmUSDTp",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xBf29043164660C60A2a72Cd15FFe2304e87B6838"
+    },
+    "CONFIDENTIAL_ARMUSDTS": {
+      "address": "0xbaC6DeDf2C10D6D381F9DBd9EFd69D93FfCef50B",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "carmUSDTs",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x500aE64100D7DbDb640531085C2F5d40cDC8930D"
+    },
+    "CONFIDENTIAL_AUSD": {
+      "address": "0xEa9A15A29DD180c40442142CaeEfC491d37bfDB2",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cAUSD",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+    },
     "CONFIDENTIAL_BBQTGBP": {
       "address": "0xBA4cFF6ED6F7Cb2A58776dECa4E984b498446762",
       "chain": "ethereum",
@@ -85,6 +139,24 @@
       "symbol": "cbbqTGBP",
       "type": "confidential_wrapper",
       "underlying_token": "0xbeeffABcd0dB09589Dd21854aa760C52aB4bf04F"
+    },
+    "CONFIDENTIAL_BBQUSDC": {
+      "address": "0x501b014f86a73A7199E00cB31C0e9565Ac51e51B",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cbbqUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xbeeff2C5bF38f90e3482a8b19F12E5a6D2FCa757"
+    },
+    "CONFIDENTIAL_BBQUSDT": {
+      "address": "0x80Ae7dbCe3c1696d3eeD04Ec8348c3C432322273",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cbbqUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xbeeff07d991C04CD640DE9F15C08ba59c4FEDEb7"
     },
     "CONFIDENTIAL_BRON": {
       "address": "0x85dE671c3bec1aDeD752c3Cea943521181C826bc",
@@ -95,6 +167,69 @@
       "type": "confidential_wrapper",
       "underlying_token": "0xBA2C598E11eD093079cC324FCa5BbbA99F616E83"
     },
+    "CONFIDENTIAL_FAUSDE": {
+      "address": "0x76A3f985315aAc9789Cb5BF8A5bb83BFF55FD5a6",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cfAUSDe",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x32401B9fb79065Bc15949DE0BD43927492f02F0C"
+    },
+    "CONFIDENTIAL_FCUSDT": {
+      "address": "0xA28A369Df348ac232E4DAF7B0Ef90280d8707D7F",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cfcUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xb48C056C5608bA2Ee4cD94AF2bF4b1F25295Bd7e"
+    },
+    "CONFIDENTIAL_PAPY": {
+      "address": "0x9ABb8f3dC2863B1F108DeD7ea41902fEF6732A8c",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cPAPY",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xB344e331A3cDa61D329fb3Cca2Be5942da87c418"
+    },
+    "CONFIDENTIAL_PENDLE": {
+      "address": "0x8900123F7e17709C1D80eda1E611A9503Cf1B3df",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cPENDLE",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x808507121B80c02388fAd14726482e061B8da827"
+    },
+    "CONFIDENTIAL_PENDLEUSDC": {
+      "address": "0xb6e5299fc56053DD5440104Fd6Fd2A3CD064edbC",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cpendleUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x55C1B6e461a6334B567bAF0FEb5D728715446f05"
+    },
+    "CONFIDENTIAL_ROXCUSDC": {
+      "address": "0xB1B18Ad1F16D744c470cb6B09Cb826AfFcc9EB30",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "croxcUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xc207d3f66537D7F66456808379A0E560cF20Da36"
+    },
+    "CONFIDENTIAL_ROXUSDCY": {
+      "address": "0x4FCCF8046FB7FB7AB76321BD39C27453e396B88f",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "croxUSDCy",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xE0181090c22579B6A217f1522cbf8c9f1F0C1965"
+    },
     "CONFIDENTIAL_STEAKCUSDC": {
       "address": "0x66Bf74E96900D1a19c7070D939D124f2F565C458",
       "chain": "ethereum",
@@ -103,6 +238,15 @@
       "symbol": "csteakcUSDC",
       "type": "confidential_wrapper",
       "underlying_token": "0xbEEF00A59B577423653A1526c7009bdE103F542B"
+    },
+    "CONFIDENTIAL_STEAKUSDT": {
+      "address": "0x1F6A937119c0c34Db0a2c4F000386a3BfD4A9e73",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "csteakUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xbeef003C68896c7D2c3c60d363e8d71a49Ab2bf9"
     },
     "CONFIDENTIAL_TGBP": {
       "address": "0xa873750ccBafD5ec7Dd13bfD5237d7129832eDD9",
@@ -130,6 +274,15 @@
       "symbol": "cUSDT",
       "type": "confidential_wrapper",
       "underlying_token": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    },
+    "CONFIDENTIAL_WBTC": {
+      "address": "0xd86aE89C089B380f064Fe01899B4071F1eb6Bb3d",
+      "chain": "ethereum",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
+      "symbol": "cWBTC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
     },
     "CONFIDENTIAL_WETH": {
       "address": "0xda9396b82634Ea99243cE51258B6A5Ae512D4893",
