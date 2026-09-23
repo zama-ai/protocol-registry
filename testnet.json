@@ -161,6 +161,31 @@
       "symbol": "USDTMock",
       "type": "erc20"
     },
+    "BITWISE_USDC_RWA_LENDING_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x64D3E697543C03AA37639d671A46F521C3b0e6Fe",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Bitwise RWA Lending vault. Deploy block 11613164.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "BITWISE_USDC_RWA_LENDING_REDEEM_VAULT_BATCHER": {
+      "address": "0x6475e7D437eC86C0dB95F97b603998F712682c92",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Bitwise RWA Lending vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "BITWISE_USDC_RWA_LENDING_VAULT": {
+      "address": "0x5461A9daA6392F8f99AC4825EE1254De00d36Ff0",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Bitwise RWA Lending'. Its share token is the underlying of CONFIDENTIAL_BITWISE_USDC_RWA.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
     "BRON_MOCK": {
       "address": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E",
       "chain": "ethereum_sepolia",
@@ -175,6 +200,105 @@
       "chain": "gateway_testnet",
       "type": "gateway_ciphertext_commits"
     },
+    "CONFIDENTIAL_ARMCWBTC": {
+      "address": "0xDDA548CD0f2602Be317A20664c800F9b4DfA53da",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmWBTCs",
+      "type": "confidential_wrapper",
+      "underlying_token": "CONFIDENTIAL_WINTERMUTE_WBTC_VAULT",
+      "underlying_token_address": "0xe5A5b28809fC23c1207cFCD4BB50C613e6bf36D4"
+    },
+    "CONFIDENTIAL_ARMUSDCP": {
+      "address": "0x2Aa3e01a8A3676C2e272d41F13B91823493f9354",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmUSDCp",
+      "type": "confidential_wrapper",
+      "underlying_token": "WINTERMUTE_USDC_PRIME_VAULT",
+      "underlying_token_address": "0xA53C74D16B4c0cc5fA80CFA84E4134F2a897899c"
+    },
+    "CONFIDENTIAL_ARMUSDCS": {
+      "address": "0xedcEC2fD6A4EB5eaE928098829505E5C15e4e71b",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmUSDCs",
+      "type": "confidential_wrapper",
+      "underlying_token": "WINTERMUTE_USDC_SELECT_VAULT",
+      "underlying_token_address": "0xa20bC6F7463EAaf600a9E0720aA687a506024fba"
+    },
+    "CONFIDENTIAL_ARMUSDTP": {
+      "address": "0xd950fE9A9c32ddBd9217627C36Ad674F7F38c645",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmUSDTp",
+      "type": "confidential_wrapper",
+      "underlying_token": "WINTERMUTE_USDT_PRIME_VAULT",
+      "underlying_token_address": "0x7e66fad0228dc080A8Ead12e7F6f43C687ECA903"
+    },
+    "CONFIDENTIAL_ARMUSDTS": {
+      "address": "0x1F9dD3AC16293D5067Db6e81aFFdBbd5d4cA70e9",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmUSDTs",
+      "type": "confidential_wrapper",
+      "underlying_token": "WINTERMUTE_USDT_SELECT_VAULT",
+      "underlying_token_address": "0xbB4BC344517c55f4cB46cC0B1726F2d8Ea946568"
+    },
+    "CONFIDENTIAL_AUSD": {
+      "address": "0xb037DebA1a0cf7e4dA65670c0377BF972a52eD3c",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cAUSD",
+      "type": "confidential_wrapper",
+      "underlying_token": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC"
+    },
+    "CONFIDENTIAL_BBQTGBP": {
+      "address": "0x993E84AdDd0Ca29E723C98a2507a0e7570413580",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cbbqTGBP",
+      "type": "confidential_wrapper",
+      "underlying_token": "STEAKHOUSE_TGBP_VAULT",
+      "underlying_token_address": "0xeA496D703b5AAeD1fb090C9A93A02499745E5A9A"
+    },
+    "CONFIDENTIAL_BBQUSDC": {
+      "address": "0x9A4Ae4951A756B4742ba3a330911af6c1502eA70",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cbbqUSDC",
+      "type": "confidential_wrapper",
+      "underlying_token": "STEAKHOUSE_USDC_HIGH_YIELD_VAULT",
+      "underlying_token_address": "0x8c309e5F28CA7fAdE124ac2436F8d476bd6C6f74"
+    },
+    "CONFIDENTIAL_BBQUSDT": {
+      "address": "0xd7a31E6A1859Bc42D2C7ef8c34D7c92AC3780b4a",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cbbqUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "STEAKHOUSE_USDT_HIGH_YIELD_VAULT",
+      "underlying_token_address": "0x1679949B5a13D8DC7d4256F073F6a9b2715021e1"
+    },
+    "CONFIDENTIAL_BITWISE_USDC_RWA": {
+      "address": "0xc8971a7ff76A16bB052F118d982985aF23325965",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cbwUSDCr",
+      "type": "confidential_wrapper",
+      "underlying_token": "BITWISE_USDC_RWA_LENDING_VAULT",
+      "underlying_token_address": "0x5461A9daA6392F8f99AC4825EE1254De00d36Ff0"
+    },
     "CONFIDENTIAL_BRON_MOCK": {
       "address": "0xaa5612FA27c927a0c7961f5AEFEE5ba3A0F9C891",
       "chain": "ethereum_sepolia",
@@ -184,14 +308,85 @@
       "type": "confidential_wrapper",
       "underlying_token": "0xFf021fB13cA64e5354c62c954b949a88cfDEb25E"
     },
+    "CONFIDENTIAL_FAUSDE": {
+      "address": "0x5f7b705c4877a1A509aF415De21DAAeD0B137801",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cfAUSDe",
+      "type": "confidential_wrapper",
+      "underlying_token": "FLOWDESK_AUSD_RWA_VAULT",
+      "underlying_token_address": "0xDbf85924729EB2924119f96DC52C7287507c97aF"
+    },
+    "CONFIDENTIAL_FCUSDT": {
+      "address": "0x9ED813cf5572AdBe0A62DB631293e806a5c104e9",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cfUSDTe",
+      "type": "confidential_wrapper",
+      "underlying_token": "FLOWDESK_USDT_HIGH_YIELD_VAULT",
+      "underlying_token_address": "0x24A3DB588181629f74d225C61625355d20B6cd1a"
+    },
+    "CONFIDENTIAL_GAUNTLET_USDC_FRONTIER": {
+      "address": "0x44F5446cCE7A49553Ba1A0d115c9Bc5E69F21781",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cgtusdcf",
+      "type": "confidential_wrapper",
+      "underlying_token": "GAUNTLET_USDC_FRONTIER_VAULT",
+      "underlying_token_address": "0xAbca19eaBB28E7Af4D4497916e3212E705Bbed59"
+    },
+    "CONFIDENTIAL_PENDLEUSDC": {
+      "address": "0x433303C2B462EbA4bAda3E2665EC45dbA6478Bb6",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "carmUSDCl",
+      "type": "confidential_wrapper",
+      "underlying_token": "WINTERMUTE_USDC_PENDLE_LOOPING_VAULT",
+      "underlying_token_address": "0x6A3CE25499643a5Fe2cF80FB6fBC508c27513436"
+    },
+    "CONFIDENTIAL_ROXCUSDC": {
+      "address": "0x53565fCE8b9D81CC4000f635aF97f394F0209fCF",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "croxUSDCr",
+      "type": "confidential_wrapper",
+      "underlying_token": "ROCKAWAYX_USDC_RWA_VAULT",
+      "underlying_token_address": "0x94D71dfaD007C2F5e9E9340ae72703222489c430"
+    },
+    "CONFIDENTIAL_ROXUSDCY": {
+      "address": "0xA88CF3eE286CEAbE600BEc431BbF2Bf4007d78a0",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "croxUSDCy",
+      "type": "confidential_wrapper",
+      "underlying_token": "ROCKAWAYX_USDC_HIGH_YIELD_VAULT",
+      "underlying_token_address": "0x22ecd6Ff385BAA1728ac8F43B4C4bdaEF3B6D2A7"
+    },
     "CONFIDENTIAL_STEAKCUSDC": {
-      "address": "0x13F7d34A4f0102734F19E3Ff16e068Fe194B28c4",
+      "address": "0x3f07Ef5A0C1E633DDfDC59b96218f8ED5b1d6f71",
       "chain": "ethereum_sepolia",
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "csteakcUSDC",
       "type": "confidential_wrapper",
-      "underlying_token": "0x6AB54988261AEC573a2CA13cF802d3B1114f864C"
+      "underlying_token": "STEAKHOUSE_CONFIDENTIAL_PRIME_USDC_VAULT",
+      "underlying_token_address": "0x3DEcCf4D7C98B573faBA29f695CA06f568E2801f"
+    },
+    "CONFIDENTIAL_STEAKUSDT": {
+      "address": "0x3ddab417b351282676c5E38AF5c5dce66C131298",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "csteakUSDT",
+      "type": "confidential_wrapper",
+      "underlying_token": "STEAKHOUSE_USDT_PRIME_VAULT",
+      "underlying_token_address": "0x7A9C06bB09A98E64680622aD3B7455c03e983780"
     },
     "CONFIDENTIAL_TGBP": {
       "address": "0x167DC962808B32CFFFc7e14B5018c0bE06A3A208",
@@ -229,6 +424,15 @@
       "type": "confidential_wrapper",
       "underlying_token": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
     },
+    "CONFIDENTIAL_WBTC": {
+      "address": "0x4bCCb68Ab353cb1472DEA27577d30aA345402cC7",
+      "chain": "ethereum_sepolia",
+      "owner": "PROTOCOL_DAO",
+      "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
+      "symbol": "cWBTC",
+      "type": "confidential_wrapper",
+      "underlying_token": "0x29f2D40B0605204364af54EC677bD022dA425d03"
+    },
     "CONFIDENTIAL_WETH_MOCK": {
       "address": "0x46208622DA27d91db4f0393733C8BA082ed83158",
       "chain": "ethereum_sepolia",
@@ -237,6 +441,37 @@
       "symbol": "cWETHMock",
       "type": "confidential_wrapper",
       "underlying_token": "0xff54739b16576FA5402F211D0b938469Ab9A5f3F"
+    },
+    "CONFIDENTIAL_WINTERMUTE_WBTC_DEPOSIT_VAULT_BATCHER": {
+      "address": "0xcc30AD76e1854bd5a192fC6407c211F2ec57294E",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute WBTC Select vault. Deploy block 11613219.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "CONFIDENTIAL_WINTERMUTE_WBTC_REDEEM_VAULT_BATCHER": {
+      "address": "0xaf3a7b5f437890a7B57f74155879E1F2D89fd202",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute WBTC Select vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "CONFIDENTIAL_WINTERMUTE_WBTC_VAULT": {
+      "address": "0xe5A5b28809fC23c1207cFCD4BB50C613e6bf36D4",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute WBTC Select'. Its share token is the underlying of CONFIDENTIAL_ARMCWBTC.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "0x29f2D40B0605204364af54EC677bD022dA425d03"
+    },
+    "CONFIDENTIAL_WINTERMUTE_WBTC_WHITELIST_SEND_ASSETS_GATE": {
+      "address": "0x3e576e446fbf5eAd7e90C8b200Af1aa918023084",
+      "chain": "ethereum_sepolia",
+      "note": "WhitelistSendAssetsGate on the Wintermute WBTC Select vault; allowlists its deposit batcher as the vault's depositor.",
+      "source_verified": true,
+      "type": "whitelist_gate"
     },
     "CONFIDENTIAL_XAUT_MOCK": {
       "address": "0xe4FcF848739845BC81Dee1d5352cf3844F0a60C7",
@@ -272,6 +507,62 @@
       "chain": "ethereum_sepolia",
       "type": "fhevm_executor"
     },
+    "FLOWDESK_AUSD_RWA_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x0733352a066b84be41bC001D9560de6f88e89e8E",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Flowdesk AUSD RWA Strategy vault. Deploy block 11613167.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "FLOWDESK_AUSD_RWA_REDEEM_VAULT_BATCHER": {
+      "address": "0xD8a2981B5EA4c6c17277e8ce970fF9C91ba4D792",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Flowdesk AUSD RWA Strategy vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "FLOWDESK_AUSD_RWA_VAULT": {
+      "address": "0xDbf85924729EB2924119f96DC52C7287507c97aF",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Flowdesk AUSD RWA Strategy'. Its share token is the underlying of CONFIDENTIAL_FAUSDE.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC"
+    },
+    "FLOWDESK_USDT_HIGH_YIELD_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x58a699b4019DAd9b85C448510D0D3C5A59E090F6",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Flowdesk High Yield USDT vault. Deploy block 11613170.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "FLOWDESK_USDT_HIGH_YIELD_REDEEM_VAULT_BATCHER": {
+      "address": "0xD33f7b4a5132b6EB9dAc60fc13279F23828971F9",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Flowdesk High Yield USDT vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "FLOWDESK_USDT_HIGH_YIELD_VAULT": {
+      "address": "0x24A3DB588181629f74d225C61625355d20B6cd1a",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Flowdesk High Yield USDT'. Its share token is the underlying of CONFIDENTIAL_FCUSDT.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDT_MOCK",
+      "underlying_token_address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
+    },
+    "FLOWDESK_USDT_HIGH_YIELD_WHITELIST_SEND_ASSETS_GATE": {
+      "address": "0x2fe3C1173071A797b8e8bEfd03cB6E79b26e2Ac3",
+      "chain": "ethereum_sepolia",
+      "note": "WhitelistSendAssetsGate on the Flowdesk High Yield USDT vault; allowlists its deposit batcher as the vault's depositor.",
+      "source_verified": true,
+      "type": "whitelist_gate"
+    },
     "GATEWAY_CONFIG": {
       "address": "0x94153006067B89399e059284f5a7Fe016940E332",
       "chain": "gateway_testnet",
@@ -298,6 +589,31 @@
       "chain": "gateway_testnet",
       "note": "This is not the proxy. The proxy factory is unique and can be reused for deploying new safes.",
       "type": "safe_proxy_factory"
+    },
+    "GAUNTLET_USDC_FRONTIER_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x6e4e16009438B869D73991b415C2de103d7F1a66",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Gauntlet USDC Frontier vault. Deploy block 11613174.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "GAUNTLET_USDC_FRONTIER_REDEEM_VAULT_BATCHER": {
+      "address": "0xDA5bF86A820cC74BFFadA78Fe8009932ced50F5d",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Gauntlet USDC Frontier vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "GAUNTLET_USDC_FRONTIER_VAULT": {
+      "address": "0xAbca19eaBB28E7Af4D4497916e3212E705Bbed59",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Gauntlet USDC Frontier'. Its share token is the underlying of CONFIDENTIAL_GAUNTLET_USDC_FRONTIER.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
     },
     "GOVERNANCE_OAPP_RECEIVER": {
       "address": "0x998E9484Aa2a9Ae5B0C8a93B4bD2ea2a5C1B6fF0",
@@ -771,6 +1087,63 @@
       "role": "kms",
       "type": "protocol_staking"
     },
+    "ROCKAWAYX_USDC_HIGH_YIELD_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x6d05867023B804760616728F7C761BD5F9ad9545",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the RockawayX USDC Yield vault. Deploy block 11613178.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "ROCKAWAYX_USDC_HIGH_YIELD_REDEEM_VAULT_BATCHER": {
+      "address": "0x63aC66266e435BB859D932080dc00FFE6e4DDE8e",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the RockawayX USDC Yield vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "ROCKAWAYX_USDC_HIGH_YIELD_VAULT": {
+      "address": "0x22ecd6Ff385BAA1728ac8F43B4C4bdaEF3B6D2A7",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'RockawayX USDC Yield'. Its share token is the underlying of CONFIDENTIAL_ROXUSDCY.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "ROCKAWAYX_USDC_RWA_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x7e07bBa1BC4BD2558D28aE58201652E1c75B8f29",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the RockawayX RWA Strategy vault. Deploy block 11613181.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "ROCKAWAYX_USDC_RWA_REDEEM_VAULT_BATCHER": {
+      "address": "0x6319017ee3b68139C1F4DaE4AE789348C5D74fA1",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the RockawayX RWA Strategy vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "ROCKAWAYX_USDC_RWA_VAULT": {
+      "address": "0x94D71dfaD007C2F5e9E9340ae72703222489c430",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'RockawayX RWA Strategy'. Its share token is the underlying of CONFIDENTIAL_ROXCUSDC.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "ROCKAWAYX_USDC_RWA_WHITELIST_SEND_ASSETS_GATE": {
+      "address": "0xAA6B44CCFcd20c1E682aB4cf2b4d01789C14f151",
+      "chain": "ethereum_sepolia",
+      "note": "WhitelistSendAssetsGate on the RockawayX RWA Strategy vault; allowlists its deposit batcher as the vault's depositor.",
+      "source_verified": true,
+      "type": "whitelist_gate"
+    },
     "SETUP_MULTISIG": {
       "address": "0x6d5521B3B0b8E36F6942EAF3fc62bB9e096a6f9a",
       "chain": "ethereum_sepolia",
@@ -778,6 +1151,138 @@
       "threshold": 3,
       "total_signers": 5,
       "type": "aragon_multisig_plugin"
+    },
+    "STEAKHOUSE_CONFIDENTIAL_PRIME_USDC_DEPOSIT_VAULT_BATCHER": {
+      "address": "0xF66Fc55060DF981449Fa746e8F58bD003370bE28",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Steakhouse Confidential Prime USDC vault. Deploy block 11613191.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_CONFIDENTIAL_PRIME_USDC_REDEEM_VAULT_BATCHER": {
+      "address": "0x9f3cF93246cBf333C6BE65fb7277724eC0c38543",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Steakhouse Confidential Prime USDC vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_CONFIDENTIAL_PRIME_USDC_VAULT": {
+      "address": "0x3DEcCf4D7C98B573faBA29f695CA06f568E2801f",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Steakhouse Confidential Prime USDC'. Its share token is the underlying of CONFIDENTIAL_STEAKCUSDC.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "STEAKHOUSE_CONFIDENTIAL_PRIME_USDC_WHITELIST_SEND_ASSETS_GATE": {
+      "address": "0x74050Fb3dC7D3c427862Cb3d5bbE0D3Df0c1678d",
+      "chain": "ethereum_sepolia",
+      "note": "WhitelistSendAssetsGate on the Steakhouse Confidential Prime USDC vault; allowlists its deposit batcher as the vault's depositor.",
+      "source_verified": true,
+      "type": "whitelist_gate"
+    },
+    "STEAKHOUSE_TGBP_DEPOSIT_VAULT_BATCHER": {
+      "address": "0xd12d907611f4ACb9F6C84bCac8539b5aDbd1Ac78",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Steakhouse tGBP vault. Deploy block 11613185.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_TGBP_REDEEM_VAULT_BATCHER": {
+      "address": "0xFA57F75d2861D0e425D91e2a9fB4B7D156D19396",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Steakhouse tGBP vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_TGBP_VAULT": {
+      "address": "0xeA496D703b5AAeD1fb090C9A93A02499745E5A9A",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Steakhouse tGBP'. Its share token is the underlying of CONFIDENTIAL_BBQTGBP.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "TGBP",
+      "underlying_token_address": "0xf6Ef9ADB61A48E29E36bc873070A46A3D2667ff3"
+    },
+    "STEAKHOUSE_USDC_HIGH_YIELD_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x5964855395836727Cf62E32d534B54Ccd855eB03",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Steakhouse High Yield USDC vault. Deploy block 11613188.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDC_HIGH_YIELD_REDEEM_VAULT_BATCHER": {
+      "address": "0xd06F2a95A810F25745f9dCC1EBb8755877A81726",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Steakhouse High Yield USDC vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDC_HIGH_YIELD_VAULT": {
+      "address": "0x8c309e5F28CA7fAdE124ac2436F8d476bd6C6f74",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Steakhouse High Yield USDC'. Its share token is the underlying of CONFIDENTIAL_BBQUSDC.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "STEAKHOUSE_USDT_HIGH_YIELD_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x94366Be3557b4e2E2e842071888A3168C671EA6E",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Steakhouse High Yield USDT vault. Deploy block 11613195.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDT_HIGH_YIELD_REDEEM_VAULT_BATCHER": {
+      "address": "0x3cA6d36f42c9DAd404f68FA1e2842BEd2C4B0395",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Steakhouse High Yield USDT vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDT_HIGH_YIELD_VAULT": {
+      "address": "0x1679949B5a13D8DC7d4256F073F6a9b2715021e1",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Steakhouse High Yield USDT'. Its share token is the underlying of CONFIDENTIAL_BBQUSDT.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDT_MOCK",
+      "underlying_token_address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
+    },
+    "STEAKHOUSE_USDT_PRIME_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x8de304Cd4F6F46e973bac8EC68366613b530158a",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Steakhouse Prime USDT vault. Deploy block 11613198.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDT_PRIME_REDEEM_VAULT_BATCHER": {
+      "address": "0xeD3ecE0DF57AdAe0b7D11F8962b9386Aca758Be9",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Steakhouse Prime USDT vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "STEAKHOUSE_USDT_PRIME_VAULT": {
+      "address": "0x7A9C06bB09A98E64680622aD3B7455c03e983780",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Steakhouse Prime USDT'. Its share token is the underlying of CONFIDENTIAL_STEAKUSDT.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDT_MOCK",
+      "underlying_token_address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
     },
     "TGBP": {
       "address": "0xf6Ef9ADB61A48E29E36bc873070A46A3D2667ff3",
@@ -820,6 +1325,13 @@
       "symbol": "USDTMock",
       "type": "erc20"
     },
+    "VAULT_BATCHER_ROUTER": {
+      "address": "0xD5BBFF95F3401aeC3B111664F6b72EdAe73814e8",
+      "chain": "ethereum_sepolia",
+      "note": "VaultBatcherConfidentialRouter. Ownerless; fans one confidential deposit or redemption out across several vault batchers. Accepts only wrappers listed on TOKEN_WRAPPER_REGISTRY.",
+      "source_verified": true,
+      "type": "vault_batcher_router"
+    },
     "WETH_MOCK": {
       "address": "0xff54739b16576FA5402F211D0b938469Ab9A5f3F",
       "chain": "ethereum_sepolia",
@@ -828,6 +1340,131 @@
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "WETHMock",
       "type": "erc20"
+    },
+    "WINTERMUTE_USDC_PENDLE_LOOPING_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x741579B27A8bdD5A09Ed999697FE4D61dCA0A778",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute USDC Looping Pendle vault. Deploy block 11613202.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_PENDLE_LOOPING_REDEEM_VAULT_BATCHER": {
+      "address": "0x1E948730EB6fe0a29293EE687315ecD8634dA71a",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute USDC Looping Pendle vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_PENDLE_LOOPING_VAULT": {
+      "address": "0x6A3CE25499643a5Fe2cF80FB6fBC508c27513436",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute USDC Looping Pendle'. Its share token is the underlying of CONFIDENTIAL_PENDLEUSDC.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "WINTERMUTE_USDC_PRIME_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x2A4BfF538bD3389cABAf872A5290B5A9280A49A8",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute USDC Prime vault. Deploy block 11613206.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_PRIME_REDEEM_VAULT_BATCHER": {
+      "address": "0xBb0F1060c371C8b90864354ABe4A91fc30aA70F1",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute USDC Prime vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_PRIME_VAULT": {
+      "address": "0xA53C74D16B4c0cc5fA80CFA84E4134F2a897899c",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute USDC Prime'. Its share token is the underlying of CONFIDENTIAL_ARMUSDCP.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "WINTERMUTE_USDC_SELECT_DEPOSIT_VAULT_BATCHER": {
+      "address": "0x672E08e823d230bC7345ddD646BB620273c44E17",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute USDC Select vault. Deploy block 11613210.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_SELECT_REDEEM_VAULT_BATCHER": {
+      "address": "0xff1d6A1b42ABCf02c1f753398e4E85a025110c33",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute USDC Select vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDC_SELECT_VAULT": {
+      "address": "0xa20bC6F7463EAaf600a9E0720aA687a506024fba",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute USDC Select'. Its share token is the underlying of CONFIDENTIAL_ARMUSDCS.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDC_MOCK",
+      "underlying_token_address": "0x9b5Cd13b8eFbB58Dc25A05CF411D8056058aDFfF"
+    },
+    "WINTERMUTE_USDT_PRIME_DEPOSIT_VAULT_BATCHER": {
+      "address": "0xe82d5765BdB44D7d0ec2DC1dcA5135B8409FC8f4",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute USDT Prime vault. Deploy block 11613213.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDT_PRIME_REDEEM_VAULT_BATCHER": {
+      "address": "0xAb5d60425607f217Ac37aB7299A9D5B6ecdBBFb9",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute USDT Prime vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDT_PRIME_VAULT": {
+      "address": "0x7e66fad0228dc080A8Ead12e7F6f43C687ECA903",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute USDT Prime'. Its share token is the underlying of CONFIDENTIAL_ARMUSDTP.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDT_MOCK",
+      "underlying_token_address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
+    },
+    "WINTERMUTE_USDT_SELECT_DEPOSIT_VAULT_BATCHER": {
+      "address": "0xd6B6d1ACEC2c8095F38b49c5c725930EB9B198E3",
+      "chain": "ethereum_sepolia",
+      "note": "DepositVaultBatcherConfidential. Batches confidential assets into the Wintermute USDT Select vault. Deploy block 11613216.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDT_SELECT_REDEEM_VAULT_BATCHER": {
+      "address": "0x4c7438086a0F74803b7461DDfd245E6Fcf33eb7C",
+      "chain": "ethereum_sepolia",
+      "note": "RedeemVaultBatcherConfidential. Batches confidential share redemptions from the Wintermute USDT Select vault.",
+      "owner": "0x974b27af6914F9A5976c777d840ff5F406F3f828",
+      "source_verified": true,
+      "type": "vault_batcher"
+    },
+    "WINTERMUTE_USDT_SELECT_VAULT": {
+      "address": "0xbB4BC344517c55f4cB46cC0B1726F2d8Ea946568",
+      "chain": "ethereum_sepolia",
+      "note": "Morpho VaultV2 'Wintermute USDT Select'. Its share token is the underlying of CONFIDENTIAL_ARMUSDTS.",
+      "source_verified": true,
+      "type": "erc4626_vault",
+      "underlying_token": "USDT_MOCK",
+      "underlying_token_address": "0xa7dA08FafDC9097Cc0E7D4f113A61e31d7e8e9b0"
     },
     "XAUT_MOCK": {
       "address": "0x24377AE4AA0C45ecEe71225007f17c5D423dd940",
