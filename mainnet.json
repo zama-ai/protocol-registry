@@ -104,6 +104,7 @@
     "CONFIDENTIAL_ARMCWBTC": {
       "address": "0xF921A5B0634f4236B21A4e948317abf9a2E86B6f",
       "chain": "ethereum",
+      "deployment_block": 25955762,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "carmcWBTC",
@@ -114,6 +115,7 @@
     "CONFIDENTIAL_ARMUSDCP": {
       "address": "0x2ebBd099f66b0ca94DD82B4c06fe3eEf6AFf853c",
       "chain": "ethereum",
+      "deployment_block": 25955908,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "carmUSDCp",
@@ -124,6 +126,7 @@
     "CONFIDENTIAL_ARMUSDCS": {
       "address": "0x77F8207ee451441336538bA07a2F425780dED8DB",
       "chain": "ethereum",
+      "deployment_block": 25955963,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "carmUSDCs",
@@ -134,6 +137,7 @@
     "CONFIDENTIAL_ARMUSDTP": {
       "address": "0x63a60aCC304b84eF829b263f28e7b636Bf77d45A",
       "chain": "ethereum",
+      "deployment_block": 25956122,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "carmUSDTp",
@@ -144,6 +148,7 @@
     "CONFIDENTIAL_ARMUSDTS": {
       "address": "0xbaC6DeDf2C10D6D381F9DBd9EFd69D93FfCef50B",
       "chain": "ethereum",
+      "deployment_block": 25955861,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "carmUSDTs",
@@ -154,6 +159,7 @@
     "CONFIDENTIAL_AUSD": {
       "address": "0xEa9A15A29DD180c40442142CaeEfC491d37bfDB2",
       "chain": "ethereum",
+      "deployment_block": 25955573,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cAUSD",
@@ -163,6 +169,7 @@
     "CONFIDENTIAL_BBQTGBP": {
       "address": "0xBA4cFF6ED6F7Cb2A58776dECa4E984b498446762",
       "chain": "ethereum",
+      "deployment_block": 25244762,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cbbqTGBP",
@@ -173,6 +180,7 @@
     "CONFIDENTIAL_BBQUSDC": {
       "address": "0x501b014f86a73A7199E00cB31C0e9565Ac51e51B",
       "chain": "ethereum",
+      "deployment_block": 25956100,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cbbqUSDC",
@@ -183,6 +191,7 @@
     "CONFIDENTIAL_BBQUSDT": {
       "address": "0x80Ae7dbCe3c1696d3eeD04Ec8348c3C432322273",
       "chain": "ethereum",
+      "deployment_block": 25956070,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cbbqUSDT",
@@ -193,6 +202,7 @@
     "CONFIDENTIAL_BRON": {
       "address": "0x85dE671c3bec1aDeD752c3Cea943521181C826bc",
       "chain": "ethereum",
+      "deployment_block": 24096700,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cBRON",
@@ -202,6 +212,7 @@
     "CONFIDENTIAL_FAUSDE": {
       "address": "0x76A3f985315aAc9789Cb5BF8A5bb83BFF55FD5a6",
       "chain": "ethereum",
+      "deployment_block": 25955712,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cfAUSDe",
@@ -212,6 +223,7 @@
     "CONFIDENTIAL_FCUSDT": {
       "address": "0xA28A369Df348ac232E4DAF7B0Ef90280d8707D7F",
       "chain": "ethereum",
+      "deployment_block": 25975670,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cfcUSDT",
@@ -222,6 +234,7 @@
     "CONFIDENTIAL_PAPY": {
       "address": "0x9ABb8f3dC2863B1F108DeD7ea41902fEF6732A8c",
       "chain": "ethereum",
+      "deployment_block": 25956010,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cPAPY",
@@ -232,6 +245,7 @@
     "CONFIDENTIAL_PENDLE": {
       "address": "0x8900123F7e17709C1D80eda1E611A9503Cf1B3df",
       "chain": "ethereum",
+      "deployment_block": 25955928,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cPENDLE",
@@ -241,6 +255,7 @@
     "CONFIDENTIAL_PENDLEUSDC": {
       "address": "0xb6e5299fc56053DD5440104Fd6Fd2A3CD064edbC",
       "chain": "ethereum",
+      "deployment_block": 25955887,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cpendleUSDC",
@@ -251,6 +266,7 @@
     "CONFIDENTIAL_ROXCUSDC": {
       "address": "0xB1B18Ad1F16D744c470cb6B09Cb826AfFcc9EB30",
       "chain": "ethereum",
+      "deployment_block": 25956174,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "croxcUSDC",
@@ -261,6 +277,7 @@
     "CONFIDENTIAL_ROXUSDCY": {
       "address": "0x4FCCF8046FB7FB7AB76321BD39C27453e396B88f",
       "chain": "ethereum",
+      "deployment_block": 25956208,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "croxUSDCy",
@@ -271,6 +288,7 @@
     "CONFIDENTIAL_STEAKCUSDC": {
       "address": "0x66Bf74E96900D1a19c7070D939D124f2F565C458",
       "chain": "ethereum",
+      "deployment_block": 25352089,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "csteakcUSDC",
@@ -281,6 +299,7 @@
     "CONFIDENTIAL_STEAKUSDT": {
       "address": "0x1F6A937119c0c34Db0a2c4F000386a3BfD4A9e73",
       "chain": "ethereum",
+      "deployment_block": 25956032,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "csteakUSDT",
@@ -291,6 +310,7 @@
     "CONFIDENTIAL_TGBP": {
       "address": "0xa873750ccBafD5ec7Dd13bfD5237d7129832eDD9",
       "chain": "ethereum",
+      "deployment_block": 24117438,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "ctGBP",
@@ -300,6 +320,7 @@
     "CONFIDENTIAL_USDC": {
       "address": "0xe978F22157048E5DB8E5d07971376e86671672B2",
       "chain": "ethereum",
+      "deployment_block": 24096697,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cUSDC",
@@ -309,6 +330,7 @@
     "CONFIDENTIAL_USDT": {
       "address": "0xAe0207C757Aa2B4019Ad96edD0092ddc63EF0c50",
       "chain": "ethereum",
+      "deployment_block": 24096698,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cUSDT",
@@ -318,6 +340,7 @@
     "CONFIDENTIAL_WBTC": {
       "address": "0xd86aE89C089B380f064Fe01899B4071F1eb6Bb3d",
       "chain": "ethereum",
+      "deployment_block": 25955687,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cWBTC",
@@ -327,6 +350,7 @@
     "CONFIDENTIAL_WETH": {
       "address": "0xda9396b82634Ea99243cE51258B6A5Ae512D4893",
       "chain": "ethereum",
+      "deployment_block": 24096699,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cWETH",
@@ -367,6 +391,7 @@
     "CONFIDENTIAL_XAUT": {
       "address": "0x73cc9aF9d6BEFdb3c3fAf8a5E8c05Cb95FdaEEf1",
       "chain": "ethereum",
+      "deployment_block": 24541690,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cXAUt",
@@ -376,6 +401,7 @@
     "CONFIDENTIAL_ZAMA": {
       "address": "0x80CB147Fd86dC6dEe3Eee7e4Cee33d1397d98071",
       "chain": "ethereum",
+      "deployment_block": 24096701,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
       "symbol": "cZAMA",
@@ -854,6 +880,7 @@
     "POLYGON_CONFIDENTIAL_USDC": {
       "address": "0xbC8d2F447d16A3a28B554C684659177245CEd8E3",
       "chain": "polygon",
+      "deployment_block": 92381880,
       "note": "The underlying token is the native USDC polygon token, not the bridged one",
       "owner": "POLYGON_GOVERNANCE_SAFE",
       "owner_address": "0xeF0645fE2f53aE04d750d5C578BbDAd6cE5Afe55",

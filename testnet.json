@@ -71,6 +71,7 @@
     "AMOY_CONFIDENTIAL_USDC_MOCK": {
       "address": "0x7a1728f2A07cE4D62167dE1348af168509011b7b",
       "chain": "polygon_amoy",
+      "deployment_block": 43046851,
       "owner": "AMOY_SAFE",
       "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
       "symbol": "cUSDCMock",
@@ -80,6 +81,7 @@
     "AMOY_CONFIDENTIAL_USDT_MOCK": {
       "address": "0x2ABad2203Eba104b52cf040cCcFA100Df15687F8",
       "chain": "polygon_amoy",
+      "deployment_block": 43049336,
       "owner": "AMOY_SAFE",
       "owner_address": "0xF0b1FE5DecfFe400fb141BBEAF9B181bCF76E3Cb",
       "symbol": "cUSDTMock",
@@ -203,6 +205,7 @@
     "CONFIDENTIAL_ARMCWBTC": {
       "address": "0xDDA548CD0f2602Be317A20664c800F9b4DfA53da",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612885,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmWBTCs",
@@ -213,6 +216,7 @@
     "CONFIDENTIAL_ARMUSDCP": {
       "address": "0x2Aa3e01a8A3676C2e272d41F13B91823493f9354",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612859,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmUSDCp",
@@ -223,6 +227,7 @@
     "CONFIDENTIAL_ARMUSDCS": {
       "address": "0xedcEC2fD6A4EB5eaE928098829505E5C15e4e71b",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612853,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmUSDCs",
@@ -233,6 +238,7 @@
     "CONFIDENTIAL_ARMUSDTP": {
       "address": "0xd950fE9A9c32ddBd9217627C36Ad674F7F38c645",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612869,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmUSDTp",
@@ -243,6 +249,7 @@
     "CONFIDENTIAL_ARMUSDTS": {
       "address": "0x1F9dD3AC16293D5067Db6e81aFFdBbd5d4cA70e9",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612864,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmUSDTs",
@@ -253,6 +260,7 @@
     "CONFIDENTIAL_AUSD": {
       "address": "0xb037DebA1a0cf7e4dA65670c0377BF972a52eD3c",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612887,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cAUSD",
@@ -262,6 +270,7 @@
     "CONFIDENTIAL_BBQTGBP": {
       "address": "0x993E84AdDd0Ca29E723C98a2507a0e7570413580",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612847,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cbbqTGBP",
@@ -272,6 +281,7 @@
     "CONFIDENTIAL_BBQUSDC": {
       "address": "0x9A4Ae4951A756B4742ba3a330911af6c1502eA70",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612831,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cbbqUSDC",
@@ -282,6 +292,7 @@
     "CONFIDENTIAL_BBQUSDT": {
       "address": "0xd7a31E6A1859Bc42D2C7ef8c34D7c92AC3780b4a",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612841,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cbbqUSDT",
@@ -292,6 +303,7 @@
     "CONFIDENTIAL_BITWISE_USDC_RWA": {
       "address": "0xc8971a7ff76A16bB052F118d982985aF23325965",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612926,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cbwUSDCr",
@@ -302,6 +314,7 @@
     "CONFIDENTIAL_BRON_MOCK": {
       "address": "0xaa5612FA27c927a0c7961f5AEFEE5ba3A0F9C891",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10162162,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cBRONMock",
@@ -311,6 +324,7 @@
     "CONFIDENTIAL_FAUSDE": {
       "address": "0x5f7b705c4877a1A509aF415De21DAAeD0B137801",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612892,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cfAUSDe",
@@ -321,6 +335,7 @@
     "CONFIDENTIAL_FCUSDT": {
       "address": "0x9ED813cf5572AdBe0A62DB631293e806a5c104e9",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612901,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cfUSDTe",
@@ -331,6 +346,7 @@
     "CONFIDENTIAL_GAUNTLET_USDC_FRONTIER": {
       "address": "0x44F5446cCE7A49553Ba1A0d115c9Bc5E69F21781",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612907,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cgtusdcf",
@@ -341,6 +357,7 @@
     "CONFIDENTIAL_PENDLEUSDC": {
       "address": "0x433303C2B462EbA4bAda3E2665EC45dbA6478Bb6",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612874,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "carmUSDCl",
@@ -351,6 +368,7 @@
     "CONFIDENTIAL_ROXCUSDC": {
       "address": "0x53565fCE8b9D81CC4000f635aF97f394F0209fCF",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612921,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "croxUSDCr",
@@ -361,6 +379,7 @@
     "CONFIDENTIAL_ROXUSDCY": {
       "address": "0xA88CF3eE286CEAbE600BEc431BbF2Bf4007d78a0",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612912,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "croxUSDCy",
@@ -371,6 +390,7 @@
     "CONFIDENTIAL_STEAKCUSDC": {
       "address": "0x3f07Ef5A0C1E633DDfDC59b96218f8ED5b1d6f71",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612826,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "csteakcUSDC",
@@ -381,6 +401,7 @@
     "CONFIDENTIAL_STEAKUSDT": {
       "address": "0x3ddab417b351282676c5E38AF5c5dce66C131298",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612836,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "csteakUSDT",
@@ -391,6 +412,7 @@
     "CONFIDENTIAL_TGBP": {
       "address": "0x167DC962808B32CFFFc7e14B5018c0bE06A3A208",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10464441,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "ctGBP",
@@ -400,6 +422,7 @@
     "CONFIDENTIAL_TGBP_MOCK": {
       "address": "0xfCE5c7069c5525eF6c8C2b2E35A745bA20a2F7CC",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10162164,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "ctGBPMock",
@@ -409,6 +432,7 @@
     "CONFIDENTIAL_USDC_MOCK": {
       "address": "0x7c5BF43B851c1dff1a4feE8dB225b87f2C223639",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10162159,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cUSDCMock",
@@ -418,6 +442,7 @@
     "CONFIDENTIAL_USDT_MOCK": {
       "address": "0x4E7B06D78965594eB5EF5414c357ca21E1554491",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10245287,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cUSDTMock",
@@ -427,6 +452,7 @@
     "CONFIDENTIAL_WBTC": {
       "address": "0x4bCCb68Ab353cb1472DEA27577d30aA345402cC7",
       "chain": "ethereum_sepolia",
+      "deployment_block": 11612876,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cWBTC",
@@ -436,6 +462,7 @@
     "CONFIDENTIAL_WETH_MOCK": {
       "address": "0x46208622DA27d91db4f0393733C8BA082ed83158",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10162161,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cWETHMock",
@@ -476,6 +503,7 @@
     "CONFIDENTIAL_XAUT_MOCK": {
       "address": "0xe4FcF848739845BC81Dee1d5352cf3844F0a60C7",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10348663,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cXAUtMock",
@@ -485,6 +513,7 @@
     "CONFIDENTIAL_ZAMA_MOCK": {
       "address": "0xf2D628d2598aF4eAF94CB76a437Ff86CA78FfbFB",
       "chain": "ethereum_sepolia",
+      "deployment_block": 10162163,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "symbol": "cZAMAMock",
