@@ -307,6 +307,14 @@
       "underlying_token": "STEAKHOUSE_USDT_PRIME_VAULT",
       "underlying_token_address": "0xbeef003C68896c7D2c3c60d363e8d71a49Ab2bf9"
     },
+    "CONFIDENTIAL_SWAP": {
+      "address": "0x8Fe22dC7e624c02b1805d41E09741490E1018C01",
+      "admin_role": "0x31bBD7a242A38372DE92CA304fE29C12C90A382C",
+      "chain": "ethereum",
+      "deployment_block": 25960480,
+      "note": "ConfidentialSwap (UUPS proxy), the RFQ protocol for swaps between confidential tokens.",
+      "type": "confidential_swap"
+    },
     "CONFIDENTIAL_TGBP": {
       "address": "0xa873750ccBafD5ec7Dd13bfD5237d7129832eDD9",
       "chain": "ethereum",
