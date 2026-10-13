@@ -172,7 +172,7 @@
 | Contract | Type | Address | Notes |
 | -------- | ---- | ------- | ----- |
 | `PAUSER_SET_HOST` | `pauser_set` | [`0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C`](https://etherscan.io/address/0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C) | Controls pausers for ACL_HOST and PAUSER_SET_WRAPPER |
-| `PAUSER_SET_WRAPPER` | `pauser_set` | [`0x08940bC8944A17E64AA9F5398046ABc75bB26699`](https://etherscan.io/address/0x08940bC8944A17E64AA9F5398046ABc75bB26699) | Controls pauser role on ZAMA_TOKEN |
+| `PAUSER_SET_WRAPPER` | `pauser_set_wrapper` | [`0x08940bC8944A17E64AA9F5398046ABc75bB26699`](https://etherscan.io/address/0x08940bC8944A17E64AA9F5398046ABc75bB26699) | Controls pauser role on ZAMA_TOKEN |
 
 ### Fees
 

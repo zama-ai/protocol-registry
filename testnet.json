@@ -124,6 +124,7 @@
     "AMOY_PAUSER_SET_HOST": {
       "address": "0xbD005B85E5de614661111930684d6F61D4a914a3",
       "chain": "polygon_amoy",
+      "deployment_block": 40430181,
       "note": "Immutable PauserSet on Polygon Amoy. Registered pauser: 0xb7D919BDC506E23BE2f34E9dBa25B2Af4C5141f0",
       "source_verified": true,
       "type": "pauser_set"
@@ -1065,6 +1066,7 @@
     "PAUSER_SET_GATEWAY": {
       "address": "0x057dC9855536470A6D8C21d075bA17EA062A5dE7",
       "chain": "gateway_testnet",
+      "deployment_block": 977,
       "owner": "GATEWAY_SAFE",
       "owner_address": "0x3241b3A4036a356c5D7e36a432Da2B8e5739D9c9",
       "type": "pauser_set"
@@ -1072,6 +1074,7 @@
     "PAUSER_SET_HOST": {
       "address": "0xc62392B4100a1bD45AbDBf91E70f1E4349402b46",
       "chain": "ethereum_sepolia",
+      "deployment_block": 9465271,
       "owner": "PROTOCOL_DAO",
       "owner_address": "0x08e8a84c3c8c7cba165B1adcf67Ae4639eF84f52",
       "type": "pauser_set"
@@ -1079,7 +1082,7 @@
     "PAUSER_SET_WRAPPER": {
       "address": "0xEd03Be6711787f3068885137723504a075514040",
       "chain": "ethereum_sepolia",
-      "type": "pauser_set"
+      "type": "pauser_set_wrapper"
     },
     "PROTOCOL_CONFIG": {
       "address": "0x51f9AFBc89Ea792e1a21a12AB802ab58D4dbee83",

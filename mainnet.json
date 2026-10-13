@@ -856,6 +856,7 @@
     "PAUSER_SET_GATEWAY": {
       "address": "0x571ecb596fCc5c840DA35CbeCA175580db50ac1b",
       "chain": "gateway",
+      "deployment_block": 1527,
       "note": "Controls pausers for GATEWAY_CONFIG, DECRYPTION, INPUT_VERIFICATION",
       "owner": "GATEWAY_SAFE",
       "owner_address": "0x5f0F86BcEad6976711C9B131bCa5D30E767fe2bE",
@@ -864,6 +865,7 @@
     "PAUSER_SET_HOST": {
       "address": "0xbBfE1680b4a63ED05f7F80CE330BED7C992A586C",
       "chain": "ethereum",
+      "deployment_block": 23832655,
       "note": "Controls pausers for ACL_HOST and PAUSER_SET_WRAPPER",
       "owner": "PROTOCOL_DAO",
       "owner_address": "0xB6D69D5F334d8B97B194617B53c6aB62f8681Ef3",
@@ -873,7 +875,7 @@
       "address": "0x08940bC8944A17E64AA9F5398046ABc75bB26699",
       "chain": "ethereum",
       "note": "Controls pauser role on ZAMA_TOKEN",
-      "type": "pauser_set"
+      "type": "pauser_set_wrapper"
     },
     "POLYGON_ACL_HOST": {
       "address": "0x6737F17e31cf26a1b62fb0362acC5a16CB156F49",
@@ -937,6 +939,7 @@
     "POLYGON_PAUSER_SET_HOST": {
       "address": "0x96901aEaf7d2Aa81FaC70218c011fbe96E21640d",
       "chain": "polygon",
+      "deployment_block": 91491444,
       "note": "Controls pausers for POLYGON_ACL_HOST",
       "type": "pauser_set"
     },

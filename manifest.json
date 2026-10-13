@@ -1,15 +1,15 @@
 {
-  "git_source_commit": "be13230845d008d9be64dcd56cc07ec5bb4195e2",
-  "generated_at": "2026-10-02T12:07:11.617Z",
+  "git_source_commit": "93283992cc39442fa9019c1474ef69331429e71a",
+  "generated_at": "2026-10-13T11:54:07.706Z",
   "files_sha256sum": {
     "files_gb/.gitbook.yaml": "0f5addf71643ef2ff35baa101f32fd26e259ee9e643dc626906780f3ec90199c",
-    "files_gb/mainnet.md": "dbad988bd57ee1fa4ab3eb8c2bbe66f1a4ecb65fa15c03c0a1535aee8a183683",
+    "files_gb/mainnet.md": "05dc9e16622fc8879cb1fdbd684cf5bae978e03d8fc2b6a6426c147a830cd370",
     "files_gb/README.md": "a93259349c817c42ee1636cba822da98aae987fb579c361a4b199b98d0905f30",
     "files_gb/SUMMARY.md": "dd639f94f6c258ef33c4ddb84f42c8ef0b28b7f78d651e41361c0212b2156d65",
-    "files_gb/testnet.md": "87e9bd8943752104dd37eb4b3105c1f7dde398a97fad0a0c78cb49a45733d748",
-    "mainnet.json": "557de2d26213b328810d5211230ee6ddd0ee50479bb3fd6a05c1f5fc3e138b5e",
-    "mainnet.md": "dbad988bd57ee1fa4ab3eb8c2bbe66f1a4ecb65fa15c03c0a1535aee8a183683",
-    "testnet.json": "cdbfe6f22cf9e9f73c4957e0a9abc7fa0cf1ac63dab8ff4be0418dbf6fda65e7",
-    "testnet.md": "87e9bd8943752104dd37eb4b3105c1f7dde398a97fad0a0c78cb49a45733d748"
+    "files_gb/testnet.md": "00a75260715ad5cd45d655d0cb438632bc6a6d05034603a53eacd9cfdc6ec10c",
+    "mainnet.json": "201998acf6c3af4176ba5e47da7fdbed5113e37a852cb3e9f6aebb05cb8ea480",
+    "mainnet.md": "05dc9e16622fc8879cb1fdbd684cf5bae978e03d8fc2b6a6426c147a830cd370",
+    "testnet.json": "68be316c990789ebcf33276392e8780d5ce6e04a31c8f7f7b9fbefceb58d93b5",
+    "testnet.md": "00a75260715ad5cd45d655d0cb438632bc6a6d05034603a53eacd9cfdc6ec10c"
   }
 }
